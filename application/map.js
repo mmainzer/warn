@@ -59,7 +59,7 @@ $('#isoGeocoder').append(isoGeocoder.onAdd(map));
 // after the map loads, bring in the source and layer you want displayed
 map.on('load', function() {
 	
-	// initPoints();
+	loadData();
 
 	map.addSource('fillSource', {
 		type: 'vector',
