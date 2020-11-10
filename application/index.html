@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <title>Community & Economic Development | WARN Logs Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name='robots' content='noindex, nofollow'>
+
+  <!-- mapbox -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+
+  <!-- Mapbox Geocoder -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.1/mapbox-gl-geocoder.min.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+
+  <!-- Mapbox Assembly -->
+  <link href='https://api.mapbox.com/mapbox-assembly/v0.23.2/assembly.min.css' rel='stylesheet'>
+  <script src='https://api.mapbox.com/mapbox-assembly/v0.23.2/assembly.js'></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/b-1.6.2/b-html5-1.6.2/datatables.min.css"/>
+  <link rel="stylesheet" href="https://use.typekit.net/jxl7wvr.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <main id="site-content">
+    <article id="interactive" class="interactive">
+
+      <header id="interactive-header" class="interactive-header">
+        <div id="company-logo-header">
+          <img class="gpc-logo" src="./assets/images/gpc-logo-horizontal.svg">
+        </div>
+        <h1 id="interactive-heading" class="interactive-heading">
+          Place Title for Project
+        </h1>
+        <div class="interactive-byline-container">
+          <p id="interactive-byline">This is a byline for the project, if necessary</p>
+        </div>
+
+      </header>
+      
+    </article>
+  </main>
+
+  <section id="section-content">
+    <div id="content-body">
+
+      <div id="content-story" class="story">
+        <div class="asset graphic" style="max-width: 600px;">
+          <h3 class="caption-heading">This is a caption heading for a graphic</h3>
+          <div class="graphic-container">
+            <!-- This is where a graphic (svg or image) will go -->
+            <img class="gpc-logo" src="./assets/images/intro-graphic-placeholder.png">
+          </div>
+        </div>
+        <p class="body">Pork loin meatloaf shank kielbasa shankle capicola kevin beef andouille. Cupim chuck doner picanha t-bone tongue. Salami pork loin porchetta frankfurter, ground round chislic strip steak.</p>
+        <p class="body">Pork loin meatloaf shank kielbasa shankle capicola kevin beef andouille. Cupim chuck doner picanha t-bone tongue. Salami pork loin porchetta frankfurter, ground round chislic strip steak.</p>
+        <p class="body">Pork loin meatloaf shank kielbasa shankle capicola kevin beef andouille. Cupim chuck doner picanha t-bone tongue. Salami pork loin porchetta frankfurter, ground round chislic strip steak.</p>
+
+
+        <!-- CONTAINERS FOR MAP AND GRAPHIC/TABLE -->
+        <div class="container-fluid">
+          <div class="row justify-content-center selection-header">
+            <h3>Search by 
+              <select id="geoLevelSelect" name="geoLevelSelect" class="dropdown">
+                <option value="cd">CDRegion</option>
+                <option value="county">County</option>
+                <option value="msa">MSA</option>
+                <option value="driveTime">drivetime</option>
+                <option value="radius">radius</option>
+              </select>. Show businesses and affected employees in 
+              <div class="geoSelect County">
+                <select id="county" name="county" class="dropdown">
+                  <option value="appling">Appling County</option>
+                  <option value='atkinson'>Atkinson County</option>
+                  <option value='bacon'>Bacon County</option>
+                  <option value='baker'>Baker County</option>
+                  <option value='baldwin'>Baldwin County</option>
+                  <option value='banks'>Banks County</option>
+                  <option value='barrow'>Barrow County</option>
+                  <option value='bartow'>Bartow County</option>
+                  <option value='benHill'>Ben Hill County</option>
+                  <option value='berrien'>Berrien County</option>
+                  <option value='bibb'>Bibb County</option>
+                  <option value='bleckley'>Bleckley County</option>
+                  <option value='brantley'>Brantley County</option>
+                  <option value='brooks'>Brooks County</option>
+                  <option value='bryan'>Bryan County</option>
+                  <option value='bulloch'>Bulloch County</option>
+                  <option value='burke'>Burke County</option>
+                  <option value='butts'>Butts County</option>
+                  <option value='calhoun'>Calhoun County</option>
+                  <option value='camden'>Camden County</option>
+                  <option value='candler'>Candler County</option>
+                  <option value='carroll'>Carroll County</option>
+                  <option value='catoosa'>Catoosa County</option>
+                  <option value='charlton'>Charlton County</option>
+                  <option value='chatham'>Chatham County</option>
+                  <option value='chattahoochee'>Chattahoochee County</option>
+                  <option value='chattooga'>Chattooga County</option>
+                  <option value='cherokee'>Cherokee County</option>
+                  <option value='clarke'>Clarke County</option>
+                  <option value='clay'>Clay County</option>
+                  <option value='clayton'>Clayton County</option>
+                  <option value='clinch'>Clinch County</option>
+                  <option value='cobb'>Cobb County</option>
+                  <option value='coffee'>Coffee County</option>
+                  <option value='colquitt'>Colquitt County</option>
+                  <option value='columbia'>Columbia County</option>
+                  <option value='cook'>Cook County</option>
+                  <option value='coweta'>Coweta County</option>
+                  <option value='crawford'>Crawford County</option>
+                  <option value='crisp'>Crisp County</option>
+                  <option value='dade'>Dade County</option>
+                  <option value='dawson'>Dawson County</option>
+                  <option value='decatur'>Decatur County</option>
+                  <option value='dekalb'>DeKalb County</option>
+                  <option value='dodge'>Dodge County</option>
+                  <option value='dooly'>Dooly County</option>
+                  <option value='dougherty'>Dougherty County</option>
+                  <option value='douglas'>Douglas County</option>
+                  <option value='early'>Early County</option>
+                  <option value='echols'>Echols County</option>
+                  <option value='effingham'>Effingham County</option>
+                  <option value='elbert'>Elbert County</option>
+                  <option value='emanuel'>Emanuel County</option>
+                  <option value='evans'>Evans County</option>
+                  <option value='fannin'>Fannin County</option>
+                  <option value='fayette'>Fayette County</option>
+                  <option value='floyd'>Floyd County</option>
+                  <option value='forsyth'>Forsyth County</option>
+                  <option value='franklin'>Franklin County</option>
+                  <option value='fulton'>Fulton County</option>
+                  <option value='gilmer'>Gilmer County</option>
+                  <option value='glascock'>Glascock County</option>
+                  <option value='glynn'>Glynn County</option>
+                  <option value='gordon'>Gordon County</option>
+                  <option value='grady'>Grady County</option>
+                  <option value='greene'>Greene County</option>
+                  <option value='gwinnett'>Gwinnett County</option>
+                  <option value='habersham'>Habersham County</option>
+                  <option value='hall'>Hall County</option>
+                  <option value='hancock'>Hancock County</option>
+                  <option value='haralson'>Haralson County</option>
+                  <option value='harris'>Harris County</option>
+                  <option value='hart'>Hart County</option>
+                  <option value='heard'>Heard County</option>
+                  <option value='henry'>Henry County</option>
+                  <option value='houston'>Houston County</option>
+                  <option value='irwin'>Irwin County</option>
+                  <option value='jackson'>Jackson County</option>
+                  <option value='jasper'>Jasper County</option>
+                  <option value='jeffDavis'>Jeff Davis County</option>
+                  <option value='jefferson'>Jefferson County</option>
+                  <option value='jenkins'>Jenkins County</option>
+                  <option value='johnson'>Johnson County</option>
+                  <option value='jones'>Jones County</option>
+                  <option value='lamar'>Lamar County</option>
+                  <option value='lanier'>Lanier County</option>
+                  <option value='laurens'>Laurens County</option>
+                  <option value='lee'>Lee County</option>
+                  <option value='liberty'>Liberty County</option>
+                  <option value='lincoln'>Lincoln County</option>
+                  <option value='long'>Long County</option>
+                  <option value='lowndes'>Lowndes County</option>
+                  <option value='lumpkin'>Lumpkin County</option>
+                  <option value='mcduffie'>McDuffie County</option>
+                  <option value='mcintosh'>McIntosh County</option>
+                  <option value='macon'>Macon County</option>
+                  <option value='madison'>Madison County</option>
+                  <option value='marion'>Marion County</option>
+                  <option value='meriwether'>Meriwether County</option>
+                  <option value='miller'>Miller County</option>
+                  <option value='mitchell'>Mitchell County</option>
+                  <option value='monroe'>Monroe County</option>
+                  <option value='montgomery'>Montgomery County</option>
+                  <option value='morgan'>Morgan County</option>
+                  <option value='murray'>Murray County</option>
+                  <option value='muscogee'>Muscogee County</option>
+                  <option value='newton'>Newton County</option>
+                  <option value='oconee'>Oconee County</option>
+                  <option value='oglethorpe'>Oglethorpe County</option>
+                  <option value='paulding'>Paulding County</option>
+                  <option value='peach'>Peach County</option>
+                  <option value='pickens'>Pickens County</option>
+                  <option value='pierce'>Pierce County</option>
+                  <option value='pike'>Pike County</option>
+                  <option value='polk'>Polk County</option>
+                  <option value='pulaski'>Pulaski County</option>
+                  <option value='putnam'>Putnam County</option>
+                  <option value='quitman'>Quitman County</option>
+                  <option value='rabun'>Rabun County</option>
+                  <option value='randolph'>Randolph County</option>
+                  <option value='richmond'>Richmond County</option>
+                  <option value='rockdale'>Rockdale County</option>
+                  <option value='schley'>Schley County</option>
+                  <option value='screven'>Screven County</option>
+                  <option value='seminole'>Seminole County</option>
+                  <option value='spalding'>Spalding County</option>
+                  <option value='stephens'>Stephens County</option>
+                  <option value='stewart'>Stewart County</option>
+                  <option value='sumter'>Sumter County</option>
+                  <option value='talbot'>Talbot County</option>
+                  <option value='taliaferro'>Taliaferro County</option>
+                  <option value='tattnall'>Tattnall County</option>
+                  <option value='taylor'>Taylor County</option>
+                  <option value='telfair'>Telfair County</option>
+                  <option value='terrell'>Terrell County</option>
+                  <option value='thomas'>Thomas County</option>
+                  <option value='tift'>Tift County</option>
+                  <option value='toombs'>Toombs County</option>
+                  <option value='towns'>Towns County</option>
+                  <option value='treutlen'>Treutlen County</option>
+                  <option value='troup'>Troup County</option>
+                  <option value='turner'>Turner County</option>
+                  <option value='twiggs'>Twiggs County</option>
+                  <option value='union'>Union County</option>
+                  <option value='upson'>Upson County</option>
+                  <option value='walker'>Walker County</option>
+                  <option value='walton'>Walton County</option>
+                  <option value='ware'>Ware County</option>
+                  <option value='warren'>Warren County</option>
+                  <option value='washington'>Washington County</option>
+                  <option value='wayne'>Wayne County</option>
+                  <option value='webster'>Webster County</option>
+                  <option value='wheeler'>Wheeler County</option>
+                  <option value='white'>White County</option>
+                  <option value='whitfield'>Whitfield County</option>
+                  <option value='wilcox'>Wilcox County</option>
+                  <option value='wilkes'>Wilkes County</option>
+                  <option value='wilkinson'>Wilkinson County</option>
+                  <option value='worth'>Worth County</option>
+                </select>
+              </div>
+              <div class="geoSelect MSA">
+                <select id="msa" name="msa" class="dropdown">
+                  <option value="albany">Albany, GA</option>
+                  <option value="americus">Americus, GA</option>
+                  <option value="athens">Athens-Clarke County, GA</option>
+                  <option value="atlanta">Atlanta-Sandy Springs-Alpharetta, GA</option>
+                  <option value="augusta">Augusta-Richmond County, GA-SC</option>
+                  <option value="bainbridge">Bainbridge, GA</option>
+                  <option value="brunswick">Brunswick, GA</option>
+                  <option value="calhoun">Calhoun, GA</option>
+                  <option value="cedartown">Cedartown, GA</option>
+                  <option value="chattanooga">Chattanooga, TN-GA</option>
+                  <option value="columbus">Columbus, GA-AL</option>
+                  <option value="cordele">Cordele, GA</option>
+                  <option value="cornelia">Cornelia, GA</option>
+                  <option value="dalton">Dalton, GA</option>
+                  <option value="douglas">Douglas, GA</option>
+                  <option value="dublin">Dublin, GA</option>
+                  <option value="fitzgerald">Fitzgerald, GA</option>
+                  <option value="gainesville">Gainesville, GA</option>
+                  <option value="hinesville">Hinesville, GA</option>
+                  <option value="jefferson">Jefferson, GA</option>
+                  <option value="jesup">Jesup, GA</option>
+                  <option value="lagrange">LaGrange, GA-AL</option>
+                  <option value="macon">Macon-Bibb County, GA</option>
+                  <option value="milledgeville">Milledgeville, GA</option>
+                  <option value="moultrie">Moultrie, GA</option>
+                  <option value="rome">Rome, GA</option>
+                  <option value="savannah">Savannah, GA</option>
+                  <option value="stMarys">St. Marys, GA</option>
+                  <option value="statesboro">Statesboro, GA</option>
+                  <option value="summerville">Summerville, GA</option>
+                  <option value="thomaston">Thomaston, GA</option>
+                  <option value="thomasville">Thomasville, GA</option>
+                  <option value="tifton">Tifton, GA</option>
+                  <option value="toccoa">Toccoa, GA</option>
+                  <option value="valdosta">Valdosta, GA</option>
+                  <option value="vidalia">Vidalia, GA</option>
+                  <option value="warnerRobins">Warner Robins, GA</option>
+                  <option value="waycross">Waycross, GA</option>
+                </select>
+              </div>
+              <div class="geoSelect CDRegion active">
+                <select id="cd" name="cd" class="dropdown">
+                  <option>Central</option>
+                  <option>Coastal</option>
+                  <option>East</option>
+                  <option>Northeast</option>
+                  <option>Metro West</option>
+                  <option selected="selected">Metro South</option>
+                  <option>Metro East</option>
+                  <option>Northwest</option>
+                  <option>South</option>
+                  <option>West</option>
+                </select>
+              </div>
+              <div class="geoSelect radius">
+                <select id="radius" name="radius" class="dropdown">
+                  <option>within 10 miles of</option>
+                  <option>within 15 miles of</option>
+                  <option>within 20 miles of</option>
+                  <option>within 25 miles of</option>
+                  <option>within 30 miles of</option>
+                  <option>within 35 miles of</option>
+                  <option>within 40 miles of</option>
+                  <option>within 45 miles of</option>
+                  <option>within 50 miles of</option>
+                </select> 
+              </div>
+              <div class='geocoder geoSelect radius' id="bufferGeocoder"></div>
+
+              <div class="geoSelect drivetime">
+                <select id="driveTime" name="driveTime" class="dropdown">
+                  <option>15 minutes from</option>
+                  <option>30 minutes from</option>
+                  <option>45 minutes from</option>
+                  <option>60 minutes from</option>
+                </select>
+              </div>
+              <div class='geocoder geoSelect drivetime' id="isoGeocoder"></div>
+              
+            </h3>
+          </div>
+
+          <div class="row justify-content-center side-by-side">
+            <div class="col-lg left">
+              <div class="legend-wrapper graphic-wrapper">
+                <h3>Percentage of relevant occupations by ZIP Code</h3>
+                <div class="key-bars">
+                  <div class="g-bars">
+                    <div id="minFill" class="g-level-label .g-level-label-first">< 1%</div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-0"></div></div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-1"></div></div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-2"></div></div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-3"></div></div>
+                    <div class="g-bar g-bar-none"><div class="g-level g-level-4"></div></div>
+                    <div id="maxFill" class="g-level-label .g-level-label-first">> 6%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="graphic-container">
+                <div class="map-container">
+                  <div id="map">
+                    <!-- <img class="gpc-logo" src="./assets/images/intro-graphic-placeholder.png"> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg right">
+              <div class="title-wrapper graphic-wrapper">
+                <h3>Considered Properties</h3>
+              </div>
+              <div class="graphic-container graphic-container-table">
+                <div class="table-container">
+                  <table id="pointsTable" class="table table-hover" style="width:95%;">
+                    <thead class="thead">
+                      <tr>
+                        <!-- put in your column headers - this all depends on the data you're displaying, so adjust columns as needed -->
+                        <th scope="col">Location</th>
+                        <th scope="col">Street</th>
+                        <th scope="col">City</th>
+                        <th scope="col">ZIP</th>
+                        <th scope="col">County</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- dynamically fill table with rows from returned json -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+      </div>
+      
+    </div>
+  </section>
+
+<!-- JQUERY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+<!-- SELECT2 FOR MAKING EASY SELECT FORMS -->
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+<!-- TURF FOR SPATIAL ANALYSIS AND FUNCTIONS IF NECESSARY -->
+<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+
+<!-- DATATABLES FOR EASILY EXPORTABLE AND SORTABLE HTML TABLES -->
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.21/b-1.6.2/b-html5-1.6.2/datatables.min.js"></script>
+
+<!-- <script type="text/javascript" src="handlePoints.js"></script> -->
+<!-- <script type="text/javascript" src="buildTable.js"></script> -->
+<script type="text/javascript" src="map.js"></script>
+
+<script type="text/javascript" src="events.js"></script>
+</body>
+
+</html>
