@@ -342,7 +342,21 @@
           <div class="row justify-content-center side-by-side">
             <div class="col-lg left">
               <div class="legend-wrapper graphic-wrapper">
-                <h3>Percentage of relevant occupations by ZIP Code</h3>
+                <h3>Employees</h3>
+                <div class="key-bars">
+                  <div class="g-bars">
+                    <div id="minFill" class="g-level-label .g-level-label-first">< 1%</div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-0"></div></div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-1"></div></div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-2"></div></div>
+                    <div class="g-bar g-bar-tick"><div class="g-level g-level-3"></div></div>
+                    <div class="g-bar g-bar-none"><div class="g-level g-level-4"></div></div>
+                    <div id="maxFill" class="g-level-label .g-level-label-first">> 6%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="legend-wrapper graphic-wrapper">
+                <h3>Companies</h3>
                 <div class="key-bars">
                   <div class="g-bars">
                     <div id="minFill" class="g-level-label .g-level-label-first">< 1%</div>
@@ -373,11 +387,11 @@
                     <thead class="thead">
                       <tr>
                         <!-- put in your column headers - this all depends on the data you're displaying, so adjust columns as needed -->
-                        <th scope="col">Location</th>
-                        <th scope="col">Street</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Company</th>
                         <th scope="col">City</th>
-                        <th scope="col">ZIP</th>
                         <th scope="col">County</th>
+                        <th scope="col">Employees</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -409,11 +423,14 @@
 <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
 
 <!-- DATATABLES FOR EASILY EXPORTABLE AND SORTABLE HTML TABLES -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.21/b-1.6.2/b-html5-1.6.2/datatables.min.js"></script>
 
 <!-- <script type="text/javascript" src="handlePoints.js"></script> -->
 <!-- <script type="text/javascript" src="buildTable.js"></script> -->
 <script type="text/javascript" src="globals.js"></script>
+<script type="text/javascript" src="handleData.js"></script>
 <script type="text/javascript" src="map.js"></script>
 <script type="text/javascript" src="loadData.js"></script>
 <script type="text/javascript" src="events.js"></script>

@@ -269,10 +269,18 @@ table {
   font-size: 14px;
 }
 
+.graphic-container-table {
+  height: 33vh;
+}
+
+#pointsTable_wrapper {
+  text-align: left;
+}
+
 #pointsTable_paginate {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  right: 20px;
+  left: 20px;
   font-family: jaf-bernina-sans, sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -281,6 +289,10 @@ table {
 
 #pointsTable_paginate.pagination {
   margin-bottom: 0;
+}
+
+.dt-buttons {
+  left: 20px;
 }
 
 .page-link {

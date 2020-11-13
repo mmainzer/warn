@@ -30,7 +30,7 @@ map.on('mousemove', 'fillLayer', function(e) {
 
 	let lngLat = e.lngLat;
 	let zip = '<h1 class="popup-header">'+e.features[0].properties.ZCTA+'</h1>';
-	let employees = '<strong> '+e.features[0].properties[layersMetric]+' </strong>';
+	let employees = '<strong> '+e.features[0].properties[fillMetric]+' </strong>';
 	let html = zip+'<p class="popup-description">There were at least'+employees+'laid off by reporting businesses.</p>'
 	fillPopup
 		.setLngLat(lngLat)
@@ -55,4 +55,21 @@ map.on('mouseleave', 'fillLayer', function() {
 	}
 
 	hoveredBoundary = null;
+});
+
+// mouse events over points
+map.on("mousemove","pointLayer", function(e) {
+	fillPopup.remove();
+	let lngLat = e.lngLat;
+	let city = '<h1 class="popup-header">'+e.features[0].properties.City+'</h1>';
+	let companies = '<strong> '+e.features[0].properties[pointMetric]+' </strong>';
+	let html = city+'<p class="popup-description">There were at least '+companies+' that experienced layoffs.</p>'
+	pointPopup
+		.setLngLat(lngLat)
+		.setHTML(html)
+		.addTo(map);
+});
+
+map.on("mouseleave","pointLayer",function(e) {
+	pointPopup.remove();
 });

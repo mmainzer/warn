@@ -5,7 +5,7 @@ const map = new mapboxgl.Map({
 	style: 'mapbox://styles/gpcecondev/ckfgusueg0dcb19oy9vf3oudn',
 	center: [-84.3712,33.7737], // starting position [lng, lat]
 	zoom: 9.0, // starting zoom
-	scrollZoom: false
+	scrollZoom: true
 });
 
 let currentZoom = map.getZoom();
@@ -67,6 +67,6 @@ map.on('load', function() {
 		url: 'mapbox://gpcecondev.06528wej?latest=true'
 	});
 
-	loadMapData(zipRoll, cityRoll);
+	loadData(zipRoll, cityRoll);
 
 });
