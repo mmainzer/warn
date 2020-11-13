@@ -39,11 +39,11 @@
           <img class="gpc-logo" src="./assets/images/gpc-logo-horizontal.svg">
         </div>
         <h1 id="interactive-heading" class="interactive-heading">
-          Place Title for Project
+          Explore Georgia's WARN Logs
         </h1>
-        <div class="interactive-byline-container">
-          <p id="interactive-byline">This is a byline for the project, if necessary</p>
-        </div>
+        <!-- <div class="interactive-byline-container">
+          <p id="interactive-byline">Use the tool below to search for businesses that have announced layoffs in the state</p>
+        </div> -->
 
       </header>
       
@@ -54,16 +54,15 @@
     <div id="content-body">
 
       <div id="content-story" class="story">
-        <div class="asset graphic" style="max-width: 600px;">
-          <h3 class="caption-heading">This is a caption heading for a graphic</h3>
-          <div class="graphic-container">
+        <!-- <div class="asset graphic" style="max-width: 600px;"> -->
+          <!-- <h3 class="caption-heading">This is a caption heading for a graphic</h3> -->
+          <!-- <div class="graphic-container"> -->
             <!-- This is where a graphic (svg or image) will go -->
-            <img class="gpc-logo" src="./assets/images/intro-graphic-placeholder.png">
-          </div>
-        </div>
-        <p class="body">Pork loin meatloaf shank kielbasa shankle capicola kevin beef andouille. Cupim chuck doner picanha t-bone tongue. Salami pork loin porchetta frankfurter, ground round chislic strip steak.</p>
-        <p class="body">Pork loin meatloaf shank kielbasa shankle capicola kevin beef andouille. Cupim chuck doner picanha t-bone tongue. Salami pork loin porchetta frankfurter, ground round chislic strip steak.</p>
-        <p class="body">Pork loin meatloaf shank kielbasa shankle capicola kevin beef andouille. Cupim chuck doner picanha t-bone tongue. Salami pork loin porchetta frankfurter, ground round chislic strip steak.</p>
+            <!-- <img class="gpc-logo" src="./assets/images/intro-graphic-placeholder.png"> -->
+          <!-- </div> -->
+        <!-- </div> -->
+        <p class="body">Georgia's Department of Labor publicizes a list of business layoffs and closures on their site. The informations is reported by individual businesses to GDOL as required by the Federal Worker Adjustment and Retraining Notification Act (WARN). The list is not exhaustive, but a good indicator of where businesses are experiencing layoffs and possibly closures, and when they're experiencing them.</p>
+        <p class="body">The data contains location information, which we've made available using the tool below. You can search by county, metro area, community development region, or by searching a drive time or radius. In the future, we'll make it possible to filter by data and industry as well.</p>
 
 
         <!-- CONTAINERS FOR MAP AND GRAPHIC/TABLE -->
@@ -76,6 +75,22 @@
                 <option value="msa">MSA</option>
                 <option value="driveTime">drivetime</option>
                 <option value="radius">radius</option>
+              </select> in
+              <select id="yearSelect" name="yearSelect" class="dropdown">
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
               </select>. Show businesses and affected employees in 
               <div class="geoSelect County">
                 <select id="county" name="county" class="dropdown">
@@ -350,7 +365,7 @@
             </div>
             <div class="col-lg right">
               <div class="title-wrapper graphic-wrapper">
-                <h3>Considered Properties</h3>
+                <h3>Closures and Layoffs</h3>
               </div>
               <div class="graphic-container graphic-container-table">
                 <div class="table-container">
@@ -398,9 +413,11 @@
 
 <!-- <script type="text/javascript" src="handlePoints.js"></script> -->
 <!-- <script type="text/javascript" src="buildTable.js"></script> -->
+<script type="text/javascript" src="globals.js"></script>
 <script type="text/javascript" src="map.js"></script>
 <script type="text/javascript" src="loadData.js"></script>
 <script type="text/javascript" src="events.js"></script>
+<script type="text/javascript" src="mapEvents.js"></script>
 </body>
 
 </html>
