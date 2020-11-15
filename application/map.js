@@ -3,10 +3,12 @@
 const map = new mapboxgl.Map({
 	container: 'map', // container id
 	style: 'mapbox://styles/gpcecondev/ckfgusueg0dcb19oy9vf3oudn',
-	center: [-84.3712,33.7737], // starting position [lng, lat]
-	zoom: 9.0, // starting zoom
+	center: [-84.5742,33.4331], // starting position [lng, lat]
+	zoom: 8.8, // starting zoom
 	scrollZoom: true
 });
+
+
 
 let currentZoom = map.getZoom();
 

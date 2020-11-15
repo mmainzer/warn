@@ -5,46 +5,40 @@ $('.dropdown').select2({
 $('#geoLevelSelect').change(function() {
 	console.log('level changed');
 	selectedLevel = $("#select2-geoLevelSelect-container").get().map(el => el.textContent);
-	console.log(selectedLevel);
 	$('.geoSelect').not('.'+selectedLevel[0]).removeClass('active');
 	$('.'+selectedLevel[0]).addClass('active');
+
+	selectedGeo = [ $("#"+selectedLevel[0]+" option:selected").text() ];
+	
+	if (selectedLevel[0] === "CDRegion" || selectedLevel[0] === "County" || selectedLevel[0] ==="MSA") {
+		getData();
+	}
 
 });
 
 
+// fire when the specific geography is changed
+$('.geoDropdown').change(function() {
+	console.log('geography changed');
+	
+	selectedGeo = [ $("#"+selectedLevel[0]+" option:selected").text() ];
+	
+	console.log(selectedGeo);
 
-// when user clicks on a cluster, it zooms in to break apart cluster
-// map.on("click", "clusteredPoints", function(e) {
-// 	let features = map.queryRenderedFeatures(e.point, {
-// 		layers:['clusteredPoints']
-// 	});
-// 	let clusterId = features[0].properties.cluster_id;
-// 	map.getSource('points').getClusterExpansionZoom(
-// 		clusterId,
-// 		function(err, zoom) {
-// 			if (err) return;
+	getData();
 
-// 			map.easeTo({
-// 				center: features[0].geometry.coordinates,
-// 				zoom: zoom
-// 			});
-// 		}
-// 	);
-// });
+});
 
-// map.on("mousemove","unclusteredPoint", function(e) {
-// 	fillPopup.remove();
-// 	let lngLat = e.lngLat;
-// 	let location = '<h1 class="popup-header">'+e.features[0].properties.Location+'</h1>';
-// 	let addrOne = '<p class="popup-description">'+e.features[0].properties.Street+'</p>';
-// 	let addrTwo = '<p class="popup-description">'+e.features[0].properties.City+', '+e.features[0].properties.State+' '+e.features[0].properties.ZIP+'</p>';
-// 	let html = location+addrOne+addrTwo;
-// 	pointPopup
-// 		.setLngLat(lngLat)
-// 		.setHTML(html)
-// 		.addTo(map);
-// });
+// function to fire if no data present in selected options
+const onFail = () => {
 
-// map.on("mouseleave","unclusteredPoint",function(e) {
-// 	pointPopup.remove();
-// });
+	map.setFilter('boundaryLayer', ["all",["match",["get",selectedLevel[0]],"Empty", true, false]]);
+	map.setFilter('fillLayer', ["all",["match",["get",selectedLevel[0]],"Empty", true, false]]);
+	map.setFilter('pointLayer', ["all",["match",["get",selectedLevel[0]],"Empty", true, false]]);
+
+	$(".graphic-container-table").hide();
+	$("#alertContainer").show();
+
+
+
+}

@@ -93,7 +93,7 @@
                 <option value="2007">2007</option>
               </select>. Show businesses and affected employees in 
               <div class="geoSelect County">
-                <select id="county" name="county" class="dropdown">
+                <select id="County" name="county" class="dropdown geoDropdown">
                   <option value="appling">Appling County</option>
                   <option value='atkinson'>Atkinson County</option>
                   <option value='bacon'>Bacon County</option>
@@ -153,7 +153,7 @@
                   <option value='floyd'>Floyd County</option>
                   <option value='forsyth'>Forsyth County</option>
                   <option value='franklin'>Franklin County</option>
-                  <option value='fulton'>Fulton County</option>
+                  <option value='fulton'  selected="selected">Fulton County</option>
                   <option value='gilmer'>Gilmer County</option>
                   <option value='glascock'>Glascock County</option>
                   <option value='glynn'>Glynn County</option>
@@ -256,11 +256,11 @@
                 </select>
               </div>
               <div class="geoSelect MSA">
-                <select id="msa" name="msa" class="dropdown">
+                <select id="MSA" name="msa" class="dropdown geoDropdown">
                   <option value="albany">Albany, GA</option>
                   <option value="americus">Americus, GA</option>
                   <option value="athens">Athens-Clarke County, GA</option>
-                  <option value="atlanta">Atlanta-Sandy Springs-Alpharetta, GA</option>
+                  <option value="atlanta" selected="selected">Atlanta-Sandy Springs-Alpharetta, GA</option>
                   <option value="augusta">Augusta-Richmond County, GA-SC</option>
                   <option value="bainbridge">Bainbridge, GA</option>
                   <option value="brunswick">Brunswick, GA</option>
@@ -298,14 +298,14 @@
                 </select>
               </div>
               <div class="geoSelect CDRegion active">
-                <select id="cd" name="cd" class="dropdown">
+                <select id="CDRegion" name="cd" class="dropdown geoDropdown">
                   <option>Central</option>
                   <option>Coastal</option>
                   <option>East</option>
                   <option>Northeast</option>
-                  <option>Metro West</option>
+                  <option>Metro North</option>
                   <option selected="selected">Metro South</option>
-                  <option>Metro East</option>
+                  <option>Metro West</option>
                   <option>Northwest</option>
                   <option>South</option>
                   <option>West</option>
@@ -341,34 +341,35 @@
 
           <div class="row justify-content-center side-by-side">
             <div class="col-lg left">
-              <div class="legend-wrapper graphic-wrapper">
-                <h3>Employees</h3>
-                <div class="key-bars">
-                  <div class="g-bars">
-                    <div id="minFill" class="g-level-label .g-level-label-first">< 1%</div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-0"></div></div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-1"></div></div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-2"></div></div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-3"></div></div>
-                    <div class="g-bar g-bar-none"><div class="g-level g-level-4"></div></div>
-                    <div id="maxFill" class="g-level-label .g-level-label-first">> 6%</div>
+              <div class="row legends-wrapper">
+                <div class="col legend-wrapper graphic-wrapper">
+                  <h3>Employees</h3>
+                  <div class="key-bars">
+                    <div class="g-bars">
+                      <div id="minFill" class="g-level-label .g-level-label-first">< 1%</div>
+                      <div class="g-bar g-bar-tick"><div class="g-level g-level-0"></div></div>
+                      <div class="g-bar g-bar-tick"><div class="g-level g-level-1"></div></div>
+                      <div class="g-bar g-bar-tick"><div class="g-level g-level-2"></div></div>
+                      <div class="g-bar g-bar-tick"><div class="g-level g-level-3"></div></div>
+                      <div class="g-bar g-bar-none"><div class="g-level g-level-4"></div></div>
+                      <div id="maxFill" class="g-level-label .g-level-label-first">> 6%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col legend-wrapper graphic-wrapper">
+                  <h3>Companies</h3>
+                  <div class="key-bubbles">
+                    <div class="key-bubbles-wrap">
+                      <div class="key-bubble" style="width: 7px; height: 7px;"></div>
+                      <div class="key-bubble" style="width: 17px; height: 17px;"></div>
+                      <div class="key-bubble" style="width: 27px; height: 27px;"></div>
+                      <div class="key-bubble" style="width: 37px; height: 37px;"></div>
+                      <div class="key-bubble" style="width: 47px; height: 47px;"></div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="legend-wrapper graphic-wrapper">
-                <h3>Companies</h3>
-                <div class="key-bars">
-                  <div class="g-bars">
-                    <div id="minFill" class="g-level-label .g-level-label-first">< 1%</div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-0"></div></div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-1"></div></div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-2"></div></div>
-                    <div class="g-bar g-bar-tick"><div class="g-level g-level-3"></div></div>
-                    <div class="g-bar g-bar-none"><div class="g-level g-level-4"></div></div>
-                    <div id="maxFill" class="g-level-label .g-level-label-first">> 6%</div>
-                  </div>
-                </div>
-              </div>
+              
               <div class="graphic-container">
                 <div class="map-container">
                   <div id="map">
@@ -380,6 +381,9 @@
             <div class="col-lg right">
               <div class="title-wrapper graphic-wrapper">
                 <h3>Closures and Layoffs</h3>
+              </div>
+              <div id="alertContainer">
+                <h3>There weren't any WARN Logs in the area and timeframe selected. Plase select different options in order to view data.</h3>
               </div>
               <div class="graphic-container graphic-container-table">
                 <div class="table-container">
@@ -429,6 +433,7 @@
 
 <!-- <script type="text/javascript" src="handlePoints.js"></script> -->
 <!-- <script type="text/javascript" src="buildTable.js"></script> -->
+<script type="text/javascript" src="./data/data.js"></script>
 <script type="text/javascript" src="globals.js"></script>
 <script type="text/javascript" src="handleData.js"></script>
 <script type="text/javascript" src="map.js"></script>

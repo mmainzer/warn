@@ -8,11 +8,8 @@ function loadData(zipRoll, cityRoll) {
 
 	$.getJSON(warnUrl, function(data) {
 
-		console.log(data);
-		dataTest = data.filter(d => { return d.Year === year[0] && d[selectedLevel[0]] === selectedGeo[0] } );
-		data = data.filter(d => (d.Year === year[0]) & (d[selectedLevel[0]] === selectedGeo[0]));
-		console.log(data);
-		buildTable(dataTest);
+		data = data.filter(d => { return d.Year === year[0] && d[selectedLevel[0]] === selectedGeo[0] });
+		buildTable(data);
 		data.reduce(function(res, value) {
 			if (!res[value.ZCTA]) {
 				res[value.ZCTA] = { ZCTA: value.ZCTA, Employees: value.Employees };
@@ -57,7 +54,7 @@ function loadData(zipRoll, cityRoll) {
 			'layout': {
 	          'visibility':'visible',
 	        },
-	        'filter': ["all",["match",["get","CDRegion"],["Metro South"], true, false]],
+	        'filter': ["all",["match",["get",selectedLevel[0]],selectedGeo, true, false]],
 	        'paint': {
 	        	'fill-color': fillColor
 	        },

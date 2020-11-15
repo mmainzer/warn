@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZ3BjZWNvbmRldiIsImEiOiJja2hhcjI3a3gwOGhoMnluO
 const warnUrl = 'https://raw.githubusercontent.com/mmainzer/warn/main/application/data/warnLogs.json?token=AD4K4PVKO3DLRJYVMVZD5WS7VKK4U';
 let year = ["2020"];
 let fillMetric = "Employees"+year[0];
-let pointMetric = "Employees"+year[0];
+let pointMetric = "Companies"+year[0];
 let selectedLevel = [ "CDRegion" ];
 let selectedGeo = [ "Metro South" ];
 let zipRoll = [];

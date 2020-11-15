@@ -1,9 +1,17 @@
+// function to fly to a new feature after certain events are fired
+const flyToBounds = () => {
+	let bbox = selectedGeo.map(id => dataObj[selectedLevel].find(({ area }) => area === id).bbox);
+
+    map.fitBounds(bbox[0], {
+      padding : {left: 10, right: 10}
+    });
+}
+
 // when reset icon is clicked, fly to the original center of map
 $(".reset-map-icon").click(function() {
-	map.flyTo({
-		center: [-84.3712,33.7737],
-		zoom:9.0
-	});
+	
+	flyToBounds();
+
 });
 
 // When the user moves their mouse over the state-fill layer, we'll update the
@@ -31,7 +39,7 @@ map.on('mousemove', 'fillLayer', function(e) {
 	let lngLat = e.lngLat;
 	let zip = '<h1 class="popup-header">'+e.features[0].properties.ZCTA+'</h1>';
 	let employees = '<strong> '+e.features[0].properties[fillMetric]+' </strong>';
-	let html = zip+'<p class="popup-description">There were at least'+employees+'laid off by reporting businesses.</p>'
+	let html = zip+'<p class="popup-description">There were at least '+employees+' employees laid off by reporting businesses.</p>'
 	fillPopup
 		.setLngLat(lngLat)
 		.setHTML(html)
@@ -63,7 +71,7 @@ map.on("mousemove","pointLayer", function(e) {
 	let lngLat = e.lngLat;
 	let city = '<h1 class="popup-header">'+e.features[0].properties.City+'</h1>';
 	let companies = '<strong> '+e.features[0].properties[pointMetric]+' </strong>';
-	let html = city+'<p class="popup-description">There were at least '+companies+' that experienced layoffs.</p>'
+	let html = city+'<p class="popup-description">There were at least '+companies+' companies that experienced layoffs.</p>'
 	pointPopup
 		.setLngLat(lngLat)
 		.setHTML(html)
