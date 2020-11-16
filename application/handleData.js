@@ -52,7 +52,7 @@ const setFillStops = () => {
 }
 
 const setPointStops = () => {
-	console.log(cityRoll);
+
 	pointStop1 = getStops(cityRoll, .2, "Companies"); //12
 	pointStop2 = getStops(cityRoll, .4, "Companies"); //57
 	pointStop3 = getStops(cityRoll, .6, "Companies"); //120
@@ -82,7 +82,6 @@ const setPointStops = () => {
 						pointStop5, 35
 					];
 
-	console.log(pointStop1,pointStop2,pointStop3,pointStop4,pointStop5);
 }
 
 const buildTable = (data) => {
@@ -104,6 +103,9 @@ const buildTable = (data) => {
 	str += '</tr>';
 	$('#pointsTable thead').html(str);
 
+	let employeeTotal = 0;
+	let companyTotal = 0;
+
 	// create empty array to put all data in correct format into
 	let arrAll = [];
 	data.forEach(function(d) {
@@ -113,9 +115,17 @@ const buildTable = (data) => {
 		let city = d.City;
 		let county = d.County;
 		let employees = d.Employees;
+		let companies = d.Companies;
+		companyTotal = companyTotal += companies;
+		employeeTotal = employeeTotal += employees;
 		tempArray.push(date, company, city, county, employees);
 		arrAll.push(tempArray);
 	});
+
+	console.log(employeeTotal);
+	console.log(companyTotal);
+	$("#announceTotal").text(companyTotal);
+	$("#employeeTotal").text(employeeTotal);
 
 	// build row and send to html table
 	arrAll.forEach(function(rowData) {
@@ -131,7 +141,7 @@ const buildTable = (data) => {
 	$(".graphic-container-table").show();
 
 	$('#pointsTable').DataTable({
-        "pageLength" : 10,
+        "pageLength" : 5,
         "paging" : true,
         "searching" : false,
         "bInfo" : false,
@@ -161,15 +171,46 @@ const setStyle = () => {
 	map.setPaintProperty('pointLayer', 'circle-radius', pointRadius );
 }
 
+const setStyleCustomGeo = (polygon) => {
+
+	// now filter and style the layers
+	map.setFilter('boundaryLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
+	map.setFilter('fillLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
+	map.setFilter('pointLayer', ["all", ['within', polygon]]);
+
+	map.setPaintProperty('fillLayer', 'fill-color', fillColor);
+	map.setPaintProperty('pointLayer', 'circle-radius', pointRadius );
+
+}
+
+const customGeoReduce = (data) => {
+
+	data.reduce(function(res, value) {
+		if (!res[value.ZCTA]) {
+			res[value.ZCTA] = { ZCTA: value.ZCTA, Employees: value.Employees };
+			zipRoll.push(res[value.ZCTA])
+		} else
+		res[value.ZCTA].Employees += value.Employees;
+		return res
+	}, {});
+
+	data.reduce(function(res, value) {
+		if (!res[value.City]) {
+			res[value.City] = { City: value.City, Companies: value.Companies };
+			cityRoll.push(res[value.City])
+		} else
+		res[value.City].Companies += value.Companies
+		return res
+	});
+
+}
+
 const getData = () => {
 
 	zipRoll = [];
 	cityRoll = [];
 
 	$.getJSON(warnUrl, function(data) {
-		console.log(data);
-		console.log(selectedLevel);
-		console.log(selectedGeo);
 
 		data = data.filter(d => { return d.Year === year[0] && d[selectedLevel[0]] === selectedGeo[0] });
 		if (data.length == 0) {
@@ -221,11 +262,8 @@ const getData = () => {
 const getCustomData = (polygon, zips) => {
 
 	$.getJSON(warnUrl, function(data) {
-		console.log(zips);
-		console.log(data);
 
 		data = data.filter(d => { return d.Year === year[0] && zips.includes(d.ZCTA) });
-		console.log(data);
 
 		if (data.length == 0) {
 			onFail();
@@ -233,34 +271,12 @@ const getCustomData = (polygon, zips) => {
 			$("#alertContainer").hide();
 			buildTable(data);
 
-			data.reduce(function(res, value) {
-				if (!res[value.ZCTA]) {
-					res[value.ZCTA] = { ZCTA: value.ZCTA, Employees: value.Employees };
-					zipRoll.push(res[value.ZCTA])
-				} else
-				res[value.ZCTA].Employees += value.Employees;
-				return res
-			}, {});
-
-			data.reduce(function(res, value) {
-				if (!res[value.City]) {
-					res[value.City] = { City: value.City, Companies: value.Companies };
-					cityRoll.push(res[value.City])
-				} else
-				res[value.City].Companies += value.Companies
-				return res
-			});
+			customGeoReduce(data);
 
 			setFillStops();
 			setPointStops();
 
-			// now filter and style the layers
-			map.setFilter('boundaryLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
-			map.setFilter('fillLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
-   			map.setFilter('pointLayer', ["all", ['within', polygon]]);
-
-			map.setPaintProperty('fillLayer', 'fill-color', fillColor);
-			map.setPaintProperty('pointLayer', 'circle-radius', pointRadius );
+			setStyleCustomGeo(polygon);
 
 			// now fly to the bounding box of the newly selected area
 			flyToBounds(bbox, 50, 50);

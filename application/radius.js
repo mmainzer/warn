@@ -10,7 +10,9 @@ bufferGeocoder.on('result', function(ev) {
 
 const getBuffer = (coords) => {
 
-	// create a source for the point from which a buffer will be created
+	checkLayers();
+  
+  // create a source for the point from which a buffer will be created
 	const bufferPoint = {
 		'type': 'Feature',
 		'geometry': {
@@ -22,8 +24,8 @@ const getBuffer = (coords) => {
 		}
 	};
 
-	// create buffer feature collection with turf
-    const buffer = turf.buffer(bufferPoint, distance, {units:unit});
+	 // create buffer feature collection with turf
+    buffer = turf.buffer(bufferPoint, distance, {units:unit});
     const bufferFC = turf.featureCollection([buffer]);
 
     // set the buff source data to the return here
@@ -32,18 +34,19 @@ const getBuffer = (coords) => {
     bbox = turf.bbox(buffer);
 
     if(typeof buffLayer === 'undefined') {
-      	// add buffer layer
+        // add buffer layer
       	map.addLayer({
         	"id": "buffer",
-        	"type": "fill",
+        	"type": "line",
         	"source": 'buff',
         	"layout": {
           		'visibility' : 'visible'
         	},
         	paint: {
-              'fill-color':"#b2d235",
-              'fill-opacity':0.5
-            },
+              'line-color':"#000",
+              'line-width':2,
+              'line-dasharray':[5,1.5]
+            }
       	}, 'fillLayer');
     }
 

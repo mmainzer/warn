@@ -73,8 +73,8 @@
                 <option value="cd">CDRegion</option>
                 <option value="county">County</option>
                 <option value="msa">MSA</option>
-                <!-- <option value="driveTime">drivetime</option> -->
-                <!-- <option value="radius">radius</option> -->
+                <option value="driveTime">drivetime</option>
+                <option value="radius">radius</option>
               </select> in
               <select id="yearSelect" name="yearSelect" class="dropdown">
                 <option value="2020">2020</option>
@@ -343,7 +343,7 @@
             <div class="col-lg left">
               <div class="row legends-wrapper">
                 <div class="col legend-wrapper graphic-wrapper">
-                  <h3>Employees</h3>
+                  <h3 class="viz-header">Employees</h3>
                   <div class="key-bars">
                     <div class="g-bars">
                       <div id="minFill" class="g-level-label .g-level-label-first">< 10</div>
@@ -357,7 +357,7 @@
                   </div>
                 </div>
                 <div class="col legend-wrapper graphic-wrapper">
-                  <h3>Companies</h3>
+                  <h3 class="viz-header">Companies</h3>
                   <div class="key-bubbles">
                     <div class="key-bubbles-wrap">
                       <div class="key-bubble" style="width: 7px; height: 7px;"></div>
@@ -380,7 +380,17 @@
             </div>
             <div class="col-lg right">
               <div class="title-wrapper graphic-wrapper">
-                <h3>Closures and Layoffs</h3>
+                <h3 class="viz-header">Closures and Layoffs</h3>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <h3 class="ban-label" id="announceTotal"></h3>
+                  <p class="ban-label">announcements</p>
+                </div>
+                <div class="col">
+                  <h3 class="ban-label" id="employeeTotal"></h3>
+                  <p class="ban-label">employees</p>
+                </div>
               </div>
               <div id="alertContainer">
                 <h3>There weren't any WARN Logs in the area and timeframe selected. Plase select different options in order to view data.</h3>
@@ -441,7 +451,7 @@
 <script type="text/javascript" src="events.js"></script>
 <script type="text/javascript" src="mapEvents.js"></script>
 <script type="text/javascript" src="radius.js"></script>
-<!-- <script type="text/javascript" src="driveTime.js"></script> -->
+<script type="text/javascript" src="driveTime.js"></script>
 </body>
 
 </html>

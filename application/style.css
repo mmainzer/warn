@@ -320,6 +320,26 @@ table {
   display: none;
 }
 
+.viz-header {
+  font-family: jaf-bernina-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ban-label {
+  font-family: jaf-bernina-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#announceTotal {
+  margin-bottom: 0px;
+}
+
+#employeeTotal {
+  margin-bottom: 0px;
+}
+
 .key-bars {
   display: block;
   max-width: 450px;
