@@ -69,6 +69,24 @@ map.on('load', function() {
 		url: 'mapbox://gpcecondev.06528wej?latest=true'
 	});
 
+	// when the map loads, add the empty (for now) isochrone sources
+    map.addSource('iso', {
+        type: 'geojson',
+        data: {
+            'type': 'FeatureCollection',
+            'features': []
+        }
+    });
+
+    // repeat that process for the buffer layer
+    map.addSource('buff', {
+        type: 'geojson',
+        data: {
+          'type': 'FeatureCollection',
+          'features': []
+        }
+    });
+
 	loadData(zipRoll, cityRoll);
 
 });

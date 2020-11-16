@@ -33,10 +33,26 @@ const setFillStops = () => {
 					fillStop5, "hsla(199, 100%, 36%, 0.7)"
 				];
 
-	console.log(fillStop1,fillStop2,fillStop3,fillStop4,fillStop5);
+	$("#minFill").text("<"+fillStop1.toFixed(0));
+	$("#maxFill").text(">"+fillStop5.toFixed(0));
+
+
+	if (fillStop1 === fillStop2) {
+		fillStop1 = fillStop1 - .2;
+	}
+
+	if (fillStop2 === fillStop3) {
+		fillStop2 = fillStop2 - .1;
+	}
+
+	if (fillStop4 === fillStop5 || fillStop4 === fillStop3) {
+		fillStop5 = fillStop5 + .2;
+		fillStop4 = fillStop4 + .1;
+	}
 }
 
 const setPointStops = () => {
+	console.log(cityRoll);
 	pointStop1 = getStops(cityRoll, .2, "Companies"); //12
 	pointStop2 = getStops(cityRoll, .4, "Companies"); //57
 	pointStop3 = getStops(cityRoll, .6, "Companies"); //120
@@ -136,6 +152,7 @@ const buildTable = (data) => {
 }
 
 const setStyle = () => {
+	
 	map.setFilter('boundaryLayer', ["all",["match",["get",selectedLevel[0]],selectedGeo, true, false]]);
 	map.setFilter('fillLayer', ["all",["match",["get",selectedLevel[0]],selectedGeo, true, false]]);
 	map.setFilter('pointLayer', ["all",["match",["get",selectedLevel[0]],selectedGeo, true, false]]);
@@ -185,12 +202,70 @@ const getData = () => {
 			// now filter and style the layers
 			setStyle();
 
+			//get the new bounding box
+			bbox = selectedGeo.map(id => dataObj[selectedLevel].find(({ area }) => area === id).bbox);
+
 			// now fly to the bounding box of the newly selected area
-			flyToBounds();
+			flyToBounds(bbox[0], 10, 10);
 
 		}
 
 		
+
+	});
+
+}
+
+// a separate get data function to fire when using a radius or
+// drivetime, since they need to be handled very differently
+const getCustomData = (polygon, zips) => {
+
+	$.getJSON(warnUrl, function(data) {
+		console.log(zips);
+		console.log(data);
+
+		data = data.filter(d => { return d.Year === year[0] && zips.includes(d.ZCTA) });
+		console.log(data);
+
+		if (data.length == 0) {
+			onFail();
+		} else {
+			$("#alertContainer").hide();
+			buildTable(data);
+
+			data.reduce(function(res, value) {
+				if (!res[value.ZCTA]) {
+					res[value.ZCTA] = { ZCTA: value.ZCTA, Employees: value.Employees };
+					zipRoll.push(res[value.ZCTA])
+				} else
+				res[value.ZCTA].Employees += value.Employees;
+				return res
+			}, {});
+
+			data.reduce(function(res, value) {
+				if (!res[value.City]) {
+					res[value.City] = { City: value.City, Companies: value.Companies };
+					cityRoll.push(res[value.City])
+				} else
+				res[value.City].Companies += value.Companies
+				return res
+			});
+
+			setFillStops();
+			setPointStops();
+
+			// now filter and style the layers
+			map.setFilter('boundaryLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
+			map.setFilter('fillLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
+   			map.setFilter('pointLayer', ["all", ['within', polygon]]);
+
+			map.setPaintProperty('fillLayer', 'fill-color', fillColor);
+			map.setPaintProperty('pointLayer', 'circle-radius', pointRadius );
+
+			// now fly to the bounding box of the newly selected area
+			flyToBounds(bbox, 50, 50);
+
+		}
 
 	});
 

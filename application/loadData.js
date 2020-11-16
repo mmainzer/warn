@@ -78,5 +78,9 @@ function loadData(zipRoll, cityRoll) {
 	        'source-layer':'warnCitiesFinal-c7hhr2'
 		});
 
+		boundaryLayer = map.getLayer('boundaryLayer');
+		fillLayer = map.getLayer('fillLayer');
+		pointLayer = map.getLayer('pointLayer');
+
 	});
 }

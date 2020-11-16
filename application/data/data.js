@@ -34,7 +34,7 @@ const dataObj = {
 					{area:"Hinesville, GA", bbox:[-81.952, 31.538, -81.168, 31.937]},
 					{area:"Jefferson, GA", bbox:[-83.890, 33.970, -83.336, 34.32]},
 					{area:"Jesup, GA", bbox:[-82.209, 31.3466, -81.613, 31.8542]},
-					{area:"LaGrange, GA", bbox:[-85.237, 32.891, -84.754, 33.291]},
+					{area:"LaGrange, GA-AL", bbox:[-85.237, 32.891, -84.754, 33.291]},
 					{area:"Macon-Bibb County, GA", bbox:[-84.306, 32.457, -83.2461, 33.257]},
 					{area:"Milledgeville, GA", bbox:[-83.43, 32.942, -82.749, 33.459]},
 					{area:"Moultrie, GA", bbox:[-84.004, 31.034, -83.508, 31.364]},
@@ -50,7 +50,7 @@ const dataObj = {
 					{area:"Valdosta, GA", bbox:[-83.828, 30.619, -82.930, 31.257]},
 					{area:"Vidalia, GA", bbox:[-82.655, 31.913, -82.183, 32.418]},
 					{area:"Warner Robins, GA", bbox:[-84.072, 32.070, -83.323, 32.731]},
-					{area:"Waycross, GA", bbox:[82.702, 30.956, -81.897, 31.482]}
+					{area:"Waycross, GA", bbox:[-82.702, 30.956, -81.897, 31.482]}
 				],
 	County: 	[
 					{area: 'Appling County', bbox:[-82.546, 31.424, -82.09, 31.968]},

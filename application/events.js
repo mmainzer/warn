@@ -29,6 +29,17 @@ $('.geoDropdown').change(function() {
 
 });
 
+$('#yearSelect').change(function() {
+	console.log("Year has been changed!");
+	year = $("#select2-yearSelect-container").get().map(el => el.textContent);
+	fillMetric = "Employees"+year[0];
+	pointMetric = "Companies"+year[0];
+	console.log(year, fillMetric, pointMetric);
+
+	getData();
+
+});
+
 // function to fire if no data present in selected options
 const onFail = () => {
 
@@ -42,3 +53,15 @@ const onFail = () => {
 
 
 }
+
+// function to change the mileage for the radius selection
+$('#radius').change(function() {
+	console.log("Radius has been changed!");
+	distance = $("#select2-radius-container").get().map(el => el.textContent);
+	distance = distance[0].split(' ');
+	distance = distance[1];
+	distance = parseInt(distance);
+	
+
+
+});
