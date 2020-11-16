@@ -141,7 +141,7 @@ const buildTable = (data) => {
         "buttons" : [{
           extend : 'pdf',
           text : 'Export PDF',
-          title : 'Locations in Selected Area'
+          title : 'Closures/Layoffs in Selected Area'
         }],
         "colReorder" : false
     });
