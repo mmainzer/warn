@@ -1,6 +1,6 @@
 // function to fly to a new feature after certain events are fired
 const flyToBounds = (bbox, left, right) => {
-	
+		
 	map.fitBounds(bbox, {
       padding : {left: left, right: right}
     });
@@ -10,7 +10,7 @@ const flyToBounds = (bbox, left, right) => {
 // when reset icon is clicked, fly to the original center of map
 $(".reset-map-icon").click(function() {
 	
-	flyToBounds(bbox[0], 10, 10);
+	flyToBounds(bbox, 10, 10);
 
 });
 
@@ -37,9 +37,11 @@ map.on('mousemove', 'fillLayer', function(e) {
 	}
 
 	let lngLat = e.lngLat;
-	let zip = '<h1 class="popup-header">'+e.features[0].properties.ZCTA+'</h1>';
-	let employees = '<strong> '+e.features[0].properties[fillMetric]+' </strong>';
-	let html = zip+'<p class="popup-description">There were at least '+employees+' employees laid off by reporting businesses in '+year[0]+'.</p>'
+	let zip = [ e.features[0].properties.ZCTA ];
+	let employees = zipRoll.filter(x => x.ZCTA === zip[0]).map(x => x.Employees) + 0;
+	zip = '<h1 class="popup-header">'+zip[0]+'</h1>';
+	employees = '<strong> '+employees+' </strong>';
+	let html = zip+'<p class="popup-description">There were at least '+employees+' employees laid off by reporting businesses in the selected time period.</p>'
 	fillPopup
 		.setLngLat(lngLat)
 		.setHTML(html)
@@ -69,9 +71,11 @@ map.on('mouseleave', 'fillLayer', function() {
 map.on("mousemove","pointLayer", function(e) {
 	fillPopup.remove();
 	let lngLat = e.lngLat;
-	let city = '<h1 class="popup-header">'+e.features[0].properties.City+'</h1>';
-	let companies = '<strong> '+e.features[0].properties[pointMetric]+' </strong>';
-	let html = city+'<p class="popup-description">There were at least '+companies+' companies that experienced layoffs in '+year[0]+'.</p>'
+	let city = e.features[0].properties.City;
+	let companies = cityRoll.filter(x => x.City === city).map(x => x.Companies) + 0;
+	city = '<h1 class="popup-header">'+city+'</h1>';
+	companies = '<strong> '+companies+' </strong>';
+	let html = city+'<p class="popup-description">There were at least '+companies+' companies that experienced layoffs in the selected time period.</p>'
 	pointPopup
 		.setLngLat(lngLat)
 		.setHTML(html)

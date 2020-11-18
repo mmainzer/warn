@@ -1,8 +1,10 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3BjZWNvbmRldiIsImEiOiJja2hhcjI3a3gwOGhoMnluODU2eHdsbW1zIn0.weWYJ-E_AzwDbebZsJiRPQ';
 const warnUrl = 'https://raw.githubusercontent.com/mmainzer/warn/main/application/data/warnLogs.json?token=AD4K4PVKO3DLRJYVMVZD5WS7VKK4U';
-let year = ["2020"];
-let fillMetric = "Employees"+year[0];
-let pointMetric = "Companies"+year[0];
+let startYear = "2020";
+let endYear = "2020";
+let years;
+let fillMetric = [ "+", 0 ];
+let pointMetric = [ "+", 0 ];
 let selectedLevel = [ "CDRegion" ];
 let selectedGeo = [ "Metro South" ];
 let bbox = selectedGeo.map(id => dataObj[selectedLevel].find(({ area }) => area === id).bbox);
@@ -14,13 +16,7 @@ let fillStop2;
 let fillStop3;
 let fillStop4;
 let fillStop5;
-let pointStop1;
-let pointStop2;
-let pointStop3;
-let pointStop4;
-let pointStop5;
 let fillColor;
-let pointRadius;
 let unit = 'miles';
 let distance = 10;
 let minutes = 30;
@@ -31,3 +27,16 @@ let isochrone;
 const centroidId = 'ckfhqog5d01f023lhf7nq8ob4';
 const centroidUrl = "https://api.mapbox.com/datasets/v1/gpcecondev/" + centroidId + "/features?access_token=" + mapboxgl.accessToken;
 const isoUrlBase = 'https://api.mapbox.com/isochrone/v1/mapbox/driving/';
+const pointRadius = ["interpolate",["linear"],pointMetric,
+						0, 3,
+						0.1, 5,
+						1, 5,
+						3, 10,
+						5, 15,
+						10, 20,
+						15, 25,
+						25,35,
+						35,45,
+						50,50,
+						100,60
+					];

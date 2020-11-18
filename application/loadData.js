@@ -8,8 +8,11 @@ function loadData(zipRoll, cityRoll) {
 
 	$.getJSON(warnUrl, function(data) {
 
-		data = data.filter(d => { return d.Year === year[0] && d[selectedLevel[0]] === selectedGeo[0] });
+		getYears();
+
+		data = data.filter(d => { return years.includes(d.Year) && d[selectedLevel[0]] === selectedGeo[0] });
 		buildTable(data);
+		buildBarChart(data);
 		data.reduce(function(res, value) {
 			if (!res[value.ZCTA]) {
 				res[value.ZCTA] = { ZCTA: value.ZCTA, Employees: value.Employees };
@@ -28,9 +31,8 @@ function loadData(zipRoll, cityRoll) {
 			return res
 		});
 
+		buildMetrics();
 		setFillStops();
-		setPointStops();
-
 
 		map.addLayer({
 			'id':'boundaryLayer',
@@ -81,6 +83,9 @@ function loadData(zipRoll, cityRoll) {
 		boundaryLayer = map.getLayer('boundaryLayer');
 		fillLayer = map.getLayer('fillLayer');
 		pointLayer = map.getLayer('pointLayer');
+
+		bbox = selectedGeo.map(id => dataObj[selectedLevel].find(({ area }) => area === id).bbox);
+		bbox = bbox[0];
 
 	});
 }

@@ -1,248 +1,248 @@
-City,CDRegion,MSA,County,Companies2007,Companies2008,Companies2009,Companies2010,Companies2011,Companies2012,Companies2013,Companies2014,Companies2015,Companies2016,Companies2017,Companies2018,Companies2019,Companies2020,Latitude,Longitude
-Acworth,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,1,0,1,0,0,0,0,0,0,0,0,0,0,3,34.0659329,-84.67687959999999
-Adairsville,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Bartow County,0,0,0,0,0,0,0,0,0,0,0,0,1,1,34.3687021,-84.9341093
-Adel,South,0,Cook County,0,0,0,1,0,0,0,1,0,0,0,0,0,0,31.1371358,-83.4234936
-Ailey,Central,"Vidalia, GA",Montgomery County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.1874042,-82.56568859999999
-Albany,South,"Albany, GA",Dougherty County,1,0,5,1,0,0,1,0,0,0,1,0,0,5,31.578206199999997,-84.15568090000001
-Alma,Coastal,0,Bacon County,0,0,1,0,0,0,0,0,0,0,0,1,1,0,31.5393701,-82.4623557
-Alpharetta,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,7,6,8,3,2,2,2,4,2,0,1,3,1,17,34.0709576,-84.2747329
-Alto,Northeast,"Cornelia, GA",Habersham County,0,0,0,0,0,0,0,1,1,0,0,0,0,1,34.4673222,-83.5737843
-Ambrose,Coastal,"Douglas, GA",Coffee County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,31.593803100000002,-83.0143147
-Americus,West,"Americus, GA",Sumter County,0,0,0,0,0,0,0,0,0,0,0,0,0,3,32.0723862,-84.23268759999999
-Andersonville,West,"Americus, GA",Sumter County,0,0,0,0,0,0,0,0,1,0,0,0,0,0,32.1959947,-84.13990849999999
-Arabi,West,"Cordele, GA",Crisp County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,31.831566100000003,-83.7379487
-Armuchee,Northwest,"Rome, GA",Floyd County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,34.3123141,-85.1721729
-Ashburn,South,0,Turner County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,31.7059751,-83.6535591
-Athens,Northeast,"Athens-Clarke County, GA",Clarke County,0,2,2,2,1,0,1,0,0,1,2,0,0,5,33.9597677,-83.376398
-Atlanta,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,20,28,26,21,8,17,22,15,15,21,38,17,16,145,33.749098700000005,-84.39018490000001
-Auburn,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Barrow County,0,1,0,0,1,0,0,0,0,1,0,0,0,0,34.013662200000006,-83.8273503
-Augusta,East,"Augusta-Richmond County, GA-SC",Richmond County,5,2,4,2,2,1,3,3,2,6,2,3,1,17,33.470971399999996,-81.9748429
-Austell,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,0,0,1,1,0,0,1,1,0,1,2,0,2,33.8126059,-84.6343783
-Avondale Estates,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,0,1,0,0,0,0,0,0,0,0,0,0,2,33.771494,-84.2671444
-Bainbridge,South,"Bainbridge, GA",Decatur County,1,1,1,0,0,0,0,0,1,0,0,0,0,0,30.903825199999996,-84.57547679999999
-Baldwin,Northeast,"Cornelia, GA",Habersham County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.4917665,-83.53739470000001
-Ball Ground,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cherokee County,0,0,0,0,0,0,0,2,0,0,0,0,0,0,34.3382257,-84.3765714
-Barnesville,West,"Atlanta-Sandy Springs-Alpharetta, GA",Lamar County,0,0,1,0,0,0,0,0,0,0,0,0,1,0,33.054570899999995,-84.1557496
-Baxley,Coastal,0,Appling County,0,0,1,0,1,0,0,0,0,0,0,0,0,1,31.778251399999995,-82.3484618
-Black Creek,Northeast,0,Banks County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,34.201048,-83.402109
-Blakely,South,0,Early County,0,0,0,1,1,0,0,0,0,0,0,0,0,0,31.3773475,-84.93433879999999
-Bloomingdale,Coastal,"Savannah, GA",Chatham County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.132424900000004,-81.2990018
-Bogart,Northeast,"Athens-Clarke County, GA",Oconee County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,33.949281,-83.53460799999999
-Bonaire,West,"Warner Robins, GA",Houston County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.5438429,-83.59602640000001
-Braselton,Northeast,"Jefferson, GA",Jackson County,0,0,0,0,1,0,1,1,0,0,0,2,0,2,34.1092735,-83.7626729
-Brookhaven,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.85843679999999,-84.340203
-Brunswick,Coastal,"Brunswick, GA",Glynn County,0,1,0,0,1,0,0,0,1,0,0,1,1,2,31.149952799999998,-81.4914894
-Buena Vista,West,"Columbus, GA-AL",Marion County,0,0,0,0,0,0,0,1,2,0,0,0,0,1,32.3190398,-84.5171411
-Buford,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,1,1,0,0,0,0,1,2,3,0,2,0,0,6,34.1206564,-84.0043513
-Calhoun,South,0,Calhoun County,1,2,3,0,0,1,0,2,2,2,0,0,0,0,31.531178399999998,-84.614328
-Canton,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cherokee County,1,0,1,0,1,0,0,0,0,0,1,1,0,3,34.23676210000001,-84.4907621
-Carnesville,Northeast,0,Franklin County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.3698266,-83.235155
-Carrollton,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Carroll County,1,5,1,0,0,1,0,1,0,3,0,1,0,3,33.580110299999994,-85.0766113
-Cartersville,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Bartow County,1,1,1,1,0,1,1,4,1,1,1,0,0,3,34.1650972,-84.7999383
-Cedartown,Northwest,"Cedartown, GA",Polk County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,34.0124425,-85.2559398
-Centerville,West,"Warner Robins, GA",Houston County,0,0,0,0,0,0,0,0,0,0,0,1,0,2,32.630145,-83.6896285
-Chamblee,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,0,0,0,0,0,1,0,0,0,0,0,0,0,33.892176,-84.29882959999999
-Chatsworth,Northwest,"Dalton, GA",Murray County,0,0,0,0,1,0,0,0,0,0,0,0,1,1,34.76659420000001,-84.7698842
-Chickamauga,Northwest,"Chattanooga, TN-GA",Walker County,0,1,0,0,0,0,1,0,0,0,0,0,0,0,34.871149700000004,-85.29024720000001
-Clarkesville,Northeast,"Cornelia, GA",Habersham County,1,0,0,0,0,0,0,1,0,0,0,0,0,0,34.6125971,-83.5248933
-Clarkston,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,1,0,0,0,1,0,0,0,0,0,0,2,33.8095487,-84.2396434
-Claxton,Coastal,0,Evans County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.1615815,-81.9040047
-Cochran,West,0,Bleckley County,0,0,0,1,0,1,0,0,0,0,0,0,0,1,32.3868278,-83.3546098
-Colbert,Northeast,"Athens-Clarke County, GA",Madison County,1,1,0,0,0,0,0,0,0,0,0,0,0,0,34.0378903,-83.2126517
-College Park,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,1,1,2,0,2,0,1,0,0,0,0,0,10,33.6534427,-84.4493725
-Columbus,West,"Columbus, GA-AL",Muscogee County,2,5,3,1,0,2,0,1,2,2,2,4,4,6,32.4609764,-84.9877094
-Commerce,Northeast,"Jefferson, GA",Jackson County,1,0,0,0,0,0,0,0,0,0,0,0,0,2,34.203996999999994,-83.4571058
-Concord,West,"Americus, GA",Sumter County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.1401594,-84.3813028
-Conley,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,1,1,0,1,0,0,0,0,0,0,0,0,2,0,33.6448311,-84.3257571
-Conyers,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Rockdale County,1,1,2,1,0,2,0,0,0,1,1,0,0,2,33.66761029999999,-84.0176904
-Cordele,West,"Cordele, GA",Crisp County,2,1,0,0,0,0,0,0,0,0,0,0,0,2,31.963507399999997,-83.7823938
-Covington,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Newton County,1,0,2,0,2,0,0,0,0,0,0,1,0,3,33.5967815,-83.86018270000001
-Cumming,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Forsyth County,0,1,0,0,0,1,0,0,0,0,0,0,0,7,34.2073196,-84.14019259999999
-Cuthbert,South,0,Randolph County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.7712748,-84.7893658
-Dacula,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,33.988716499999995,-83.8979573
-Dahlonega,Northeast,0,Lumpkin County,0,2,0,0,0,0,0,1,0,0,0,1,0,1,34.5328484,-83.9845723
-Dallas,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Paulding County,0,0,0,1,0,1,1,0,0,0,0,0,0,0,33.9237141,-84.8407732
-Dalton,Northwest,"Dalton, GA",Whitfield County,2,2,1,0,3,0,0,0,1,1,0,0,2,4,34.769186700000006,-84.9702475
-Dawson,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Dawson County,1,0,0,0,0,0,0,0,1,0,0,1,0,0,34.407708500000005,-84.1356771
-Dawsonville,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Dawson County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.4212053,-84.1190804
-Dearing,East,"Augusta-Richmond County, GA-SC",McDuffie County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,33.4131947,-82.3851255
-Decatur,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,2,1,1,1,0,0,3,1,0,3,0,0,3,33.7737582,-84.29606899999999
-Doraville,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,3,0,0,2,0,0,1,0,0,0,0,1,0,33.898157899999994,-84.2832564
-Douglas,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Douglas County,0,0,2,0,0,0,0,0,0,0,0,0,0,0,33.6995565,-84.7622973
-Douglasville,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Douglas County,0,0,1,0,0,1,1,0,0,0,0,1,0,5,33.7514966,-84.7477136
-Dry Branch,West,"Macon-Bibb County, GA",Crawford County,0,1,1,0,0,0,0,0,0,0,0,0,0,0,32.772308,-84.044416
-Dublin,Central,"Dublin, GA",Laurens County,2,0,3,0,2,0,0,0,0,0,0,1,3,0,32.5404447,-82.903754
-Duluth,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,1,3,5,4,1,1,4,3,3,0,3,0,0,4,34.0028569,-84.14410459999999
-Dunwoody,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,0,0,0,0,0,0,0,0,0,1,0,2,33.948364899999994,-84.334963
-East Point,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,4,0,0,1,1,1,1,1,0,0,0,0,3,33.6795531,-84.43937240000001
-Eastman,Central,0,Dodge County,0,0,1,0,0,0,0,0,0,0,0,0,0,1,32.1976729,-83.1776514
-Eatonton,East,0,Putnam County,0,0,1,0,0,1,0,0,0,0,0,0,0,1,33.326799699999995,-83.38849609999998
-Elberton,Northeast,0,Elbert County,1,2,2,0,0,1,0,1,0,0,0,0,0,0,34.111222600000005,-82.8670839
-Ellaville,West,"Americus, GA",Schley County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.2382139,-84.30907979999999
-Ellenwood,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,0,0,0,0,0,0,0,0,0,1,0,1,1,33.6101096,-84.28797800000001
-Ellijay,Northwest,0,Gilmer County,0,1,0,0,0,0,0,0,0,1,0,0,0,1,34.6950278,-84.48273940000001
-Eton,Northwest,"Dalton, GA",Murray County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,34.8247425,-84.7632713
-Evans,Coastal,0,Evans County,0,0,1,0,0,0,0,0,1,0,0,0,0,2,32.1613648,-81.8980725
-Fairburn,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,0,0,0,0,0,0,1,0,1,2,33.5670562,-84.5810418
-Fayetteville,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fayette County,0,0,0,0,0,2,0,0,1,0,0,1,1,2,33.4487257,-84.4549262
-Fitzgerald,South,"Fitzgerald, GA",Ben Hill County,2,1,0,1,1,0,0,0,0,1,0,0,0,0,31.7149082,-83.2526545
-Flowery Branch,Northeast,"Gainesville, GA",Hall County,1,0,0,0,0,0,0,0,1,0,0,0,0,1,34.185101700000004,-83.9251809
-Folkston,Coastal,0,Charlton County,0,0,1,0,0,0,0,0,0,0,0,0,0,1,30.830581800000004,-82.00978459999999
-Forest Park,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,2,0,0,2,2,1,1,1,1,1,0,1,1,33.6220542,-84.36909179999999
-Forsyth,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Forsyth County,0,1,0,0,1,1,0,0,0,0,1,0,0,0,34.235309,-84.13356440000001
-Fort Benning,West,"Columbus, GA-AL",Chattahoochee County,0,1,0,2,1,0,1,2,4,0,2,0,3,1,32.3523691,-84.9688191
-Fort Gaines,South,0,Clay County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.609056899999995,-85.0471505
-Fort Gordon,East,"Augusta-Richmond County, GA-SC",Richmond County,1,0,1,0,1,3,0,0,0,0,1,0,1,0,33.420972,-82.1620645
-Fort McPherson,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.706771,-84.43503738
-Fort Mill,West,"Columbus, GA-AL",Chattahoochee County,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32.3523691,-84.9688191
-Fort Oglethorpe,Northwest,"Chattanooga, TN-GA",Catoosa County,0,2,0,0,0,0,0,0,1,0,0,0,0,0,34.9513555,-85.2415113
-Fort Stewart,Coastal,"Hinesville, GA",Liberty County,0,0,0,0,3,0,0,0,0,0,0,0,1,0,31.869434899999998,-81.6077657
-Fort Valley,West,"Warner Robins, GA",Peach County,0,0,0,1,0,0,0,1,0,0,0,0,0,1,32.5537585,-83.8874084
-Fortson,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,33.377891399999996,-84.28881190000001
-Franklin,Northeast,0,Heard County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,34.36786420000001,-83.21565749999999
-Gainesville,Northeast,"Gainesville, GA",Hall County,2,3,2,1,0,1,2,1,1,0,1,0,2,4,34.2978794,-83.8240663
-Garden City,Coastal,"Savannah, GA",Chatham County,0,0,1,0,0,0,0,1,0,0,0,0,0,0,32.114371500000004,-81.15400129999999
-Glenwood,Central,0,Wheeler County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,32.179900800000006,-82.6695802
-Glynco,Coastal,"Brunswick, GA",Glynn County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.2224512,-81.5101023
-Gordon,Northwest,"Calhoun, GA",Gordon County,0,0,0,0,0,0,0,0,0,1,0,0,0,0,34.5019651,-84.89863079999999
-Grayson,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.8942729,-83.95574
-Greensboro,Northeast,0,Greene County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.5756831,-83.18237890000002
-Greenville,West,"Atlanta-Sandy Springs-Alpharetta, GA",Meriwether County,0,1,0,0,0,0,0,0,0,0,0,0,0,1,33.0287373,-84.7129848
-Griffin,West,"Atlanta-Sandy Springs-Alpharetta, GA",Spalding County,1,2,1,0,1,0,3,0,0,0,0,1,0,0,33.246780699999995,-84.26409040000001
-Grovetown,East,"Augusta-Richmond County, GA-SC",Columbia County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.4504157,-82.19817640000001
-Hamilton,West,"Columbus, GA-AL",Harris County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.757910700000004,-84.8749311
-Hampton,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.3870578,-84.2829784
-Hapeville,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,1,0,1,0,1,0,0,1,1,0,0,0,0,1,33.660109000000006,-84.4102046
-Hartwell,Northeast,0,Hart County,1,0,1,0,0,0,0,0,0,0,0,0,1,0,34.3528825,-82.932087
-Hawkinsville,Central,"Warner Robins, GA",Pulaski County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,32.2839257,-83.4719948
-Helen,Northeast,0,White County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.7009043,-83.7294546
-Hiawassee,Northeast,0,Towns County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.947959000000004,-83.7569922
-Hiram,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Paulding County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,33.875660100000005,-84.7621592
-Hogansville,West,"LaGrange, GA",Troup County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,33.173176899999994,-84.914936
-Hunter Army Airfield,Coastal,"Savannah, GA",Chatham County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,32.0093774,-81.15073344
-Jackson,Northeast,"Jefferson, GA",Jackson County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.1282559,-83.5753386
-Jefferson,East,0,Jefferson County,0,0,0,0,0,0,0,0,0,2,0,0,0,1,33.0380388,-82.436141
-Jeffersonville,Central,"Macon-Bibb County, GA",Twiggs County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,32.6876606,-83.3470598
-Jesup,Coastal,"Jesup, GA",Wayne County,1,1,0,0,0,0,0,0,0,0,0,0,0,0,31.6074365,-81.88539240000001
-Johns Creek,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,34.0181557,-84.190196
-Jonesboro,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,0,0,1,0,2,0,0,0,0,0,0,0,0,33.521501300000004,-84.3538128
-Kennesaw,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,5,4,2,2,1,0,2,3,3,4,3,3,8,34.023433700000005,-84.6154897
-Kings Bay,Coastal,"St. Marys, GA",Camden County,0,0,0,1,2,0,0,1,0,0,0,0,0,2,30.7919027,-81.4970392
-Kingsland,Coastal,"St. Marys, GA",Camden County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,30.7999563,-81.68982609999999
-Lafayette,Northwest,"Chattanooga, TN-GA",Walker County,0,1,0,1,0,0,0,0,0,0,0,0,0,0,34.7048022,-85.2818998
-LaGrange,West,"LaGrange, GA-AL",Troup County,1,3,0,2,0,0,0,0,0,0,0,0,0,3,33.039291,-85.03132690000001
-Lake City,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,0,0,0,0,0,0,0,0,0,1,0,0,1,33.6064989,-84.3352017
-Lavonia,Northeast,0,Franklin County,1,1,0,2,0,0,0,0,0,0,0,0,0,0,34.435682799999995,-83.1072495
-Lawrenceville,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,3,0,4,0,2,3,1,4,2,2,3,0,1,2,33.9562149,-83.9879625
-Lilburn,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,33.8901036,-84.1429719
-Lithia Springs,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Douglas County,1,1,3,0,1,1,0,0,2,0,1,0,1,4,33.7939953,-84.66048990000002
-Lithonia,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,0,0,0,0,0,1,0,0,0,0,2,1,6,33.7123305,-84.1051939
-Locust Grove,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,0,0,0,0,0,1,0,0,0,0,1,33.345949499999996,-84.109083
-Loganville,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Walton County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,33.8389977,-83.90073819999999
-Louisville,East,0,Jefferson County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.0015407,-82.4112377
-Lyerly,Northwest,"Summerville, GA",Chattooga County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,34.4039775,-85.40329109999999
-Lyons,Central,"Vidalia, GA",Toombs County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,32.2043546,-82.321791
-Mableton,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,1,0,0,0,0,0,0,0,0,2,0,0,0,33.8188333,-84.5822632
-Macon,Central,"Macon-Bibb County, GA",Bibb County,1,2,2,1,1,2,0,2,2,2,5,1,1,8,32.8406946,-83.6324022
-Madison,Northeast,"Athens-Clarke County, GA",Madison County,3,0,0,0,0,0,0,0,0,0,0,0,0,0,34.1307533,-83.1817407
-Manchester,West,"Atlanta-Sandy Springs-Alpharetta, GA",Meriwether County,0,0,0,0,0,0,0,0,0,0,1,0,0,0,32.8598538,-84.61992509999999
-Marietta,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,2,5,2,2,3,2,3,4,0,4,1,5,0,8,33.9528472,-84.54961479999999
-Martinez,East,"Augusta-Richmond County, GA-SC",Columbia County,0,0,0,0,0,0,0,0,0,1,0,0,1,1,33.5185135,-82.09020822
-McDonough,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,1,3,0,0,0,0,0,0,0,0,1,33.4473361,-84.1468616
-McIntyre,East,0,Wilkinson County,0,0,0,0,0,0,0,0,1,0,0,0,0,0,32.846258299999995,-83.19071009999999
-McRae,Central,0,Telfair County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.0679541,-82.9006993
-Menlo,Northwest,"Summerville, GA",Chattooga County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.484808,-85.47634920000002
-Metter,Coastal,0,Candler County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,32.397118,-82.0601196
-Midland,West,"Columbus, GA-AL",Muscogee County,0,0,1,0,0,0,1,0,1,0,0,1,0,0,32.5748608,-84.827152
-Midville,East,"Augusta-Richmond County, GA-SC",Burke County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.8190456,-82.23484549999999
-Midway,Coastal,"Hinesville, GA",Liberty County,0,0,0,0,0,0,0,0,0,0,0,1,0,2,31.805769,-81.4306642
-Milledgeville,East,"Milledgeville, GA",Baldwin County,1,1,3,0,0,0,1,1,1,0,0,0,1,0,33.0801429,-83.2320991
-Millen,East,0,Jenkins County,3,0,1,0,0,0,0,0,0,0,0,0,0,0,32.804051199999996,-81.9492812
-Milton,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,34.1321631,-84.300666
-Monroe,Central,"Macon-Bibb County, GA",Monroe County,0,0,1,0,0,0,0,0,0,0,0,0,0,1,33.0142344,-83.9044159
-Montezuma,West,0,Macon County,0,0,0,0,0,1,2,0,0,0,0,0,0,0,32.3051576,-84.0274073
-Monticello,East,"Atlanta-Sandy Springs-Alpharetta, GA",Jasper County,0,0,0,0,0,0,0,0,0,0,0,1,0,0,33.3044654,-83.684096
-Morrow,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,1,0,0,1,0,0,1,0,1,0,0,1,3,33.5831662,-84.33936829999999
-Moultrie,South,"Moultrie, GA",Colquitt County,1,0,0,0,0,0,1,1,0,0,0,0,0,0,31.179997999999998,-83.7887928
-Murrayville,Northeast,"Gainesville, GA",Hall County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.4187083,-83.9057392
-Nashville,South,0,Berrien County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,31.2074197,-83.25015479999999
-Newnan,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Coweta County,0,0,1,0,0,1,0,0,4,0,0,1,1,8,33.3806716,-84.79965729999999
-Norcross,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,3,9,4,2,5,0,2,1,1,2,2,0,0,5,33.9412127,-84.2135309
-Oakwood,Northeast,"Gainesville, GA",Hall County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,34.227602000000005,-83.8843455
-Ocilla,South,0,Irwin County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,31.5943567,-83.2504328
-Palmetto,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.5178907,-84.66965490000001
-Patterson,Coastal,"Waycross, GA",Pierce County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,31.387438300000003,-82.1401193
-Peachtree City,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fayette County,0,0,1,1,0,1,1,1,0,0,0,0,0,5,33.3967829,-84.59576290000001
-Peachtree Corners,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,33.9701009,-84.2215869
-Pelham,South,0,Mitchell County,0,0,0,0,0,0,0,0,0,0,0,1,0,0,31.127482,-84.152113
-Pendergrass,Northeast,"Jefferson, GA",Jackson County,1,0,1,0,1,1,0,0,1,1,0,0,0,0,34.1623292,-83.67794740000001
-Perry,West,"Warner Robins, GA",Houston County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.4586695,-83.7319658
-Pine Mountain Vally,West,"Columbus, GA-AL",Harris County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,32.850077,-84.846327
-Pooler,Coastal,"Savannah, GA",Chatham County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,32.1158983,-81.24951309999999
-Portal,Coastal,"Statesboro, GA",Bulloch County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,32.538222,-81.9323384
-Preston,West,0,Webster County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,32.0659918,-84.537417
-Quitman,South,"Eufaula, AL-GA",Quitman County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,31.8769847,-85.0154412
-Rabun Gap,Northeast,0,Rabun County,0,0,0,0,0,0,0,0,0,0,0,1,0,0,34.9472664,-83.3978194
-Richmond,East,"Augusta-Richmond County, GA-SC",Richmond County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,33.385076,-82.09207959
-Richmond Hill,Coastal,"Savannah, GA",Bryan County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.9382381,-81.3035515
-Ringgold,Northwest,"Chattanooga, TN-GA",Catoosa County,0,1,1,1,0,0,0,0,0,0,0,0,0,0,34.91591,-85.1091173
-Riverdale,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,1,0,0,0,1,0,0,0,0,0,0,0,0,0,33.5726113,-84.4132594
-Roberta,West,"Macon-Bibb County, GA",Crawford County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.7219973,-84.0130926
-Robins Air Force Base,West,"Warner Robins, GA",Houston County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,32.617825800000006,-83.57707459
-Rockmart,Northwest,"Cedartown, GA",Polk County,0,0,0,0,0,0,0,1,0,2,0,0,0,0,34.0026005,-85.0416133
-Rome,Northwest,"Rome, GA",Floyd County,3,3,3,2,4,0,0,3,3,4,1,2,0,3,34.257038,-85.16467259999999
-Roopville,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Carroll County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.4565021,-85.13077790000001
-Rossville,Northwest,"Chattanooga, TN-GA",Walker County,0,2,0,0,0,0,0,0,0,0,0,0,0,0,34.983376,-85.28603000000001
-Roswell,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,1,1,0,1,0,1,0,1,0,1,2,1,1,7,34.02332,-84.360022
-Royston,Northeast,0,Franklin County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,34.2870503,-83.1101483
-Sandersville,East,0,Washington County,0,1,4,0,0,0,0,0,0,0,0,0,1,0,32.9832812,-82.8116031
-Sandy Springs,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,1,0,1,0,0,0,0,1,0,0,0,0,0,2,33.92426879999999,-84.37853790000001
-Savannah,Coastal,"Savannah, GA",Chatham County,0,3,4,3,4,2,2,1,3,1,0,3,2,26,32.0809263,-81.09117679999999
-Shannon,Northwest,"Rome, GA",Floyd County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,34.3422495,-85.08579182
-Silver Creek,Northwest,"Rome, GA",Floyd County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,34.242305,-85.174276
-Smyrna,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,0,1,1,0,1,1,2,3,0,1,1,1,5,33.883887,-84.51474540000001
-Snellville,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,0,0,0,0,0,0,0,3,33.857328,-84.0199108
-Social Circle,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Walton County,1,0,0,0,0,0,0,0,0,0,1,0,0,0,33.6561723,-83.7184579
-Soperton,Central,0,Treutlen County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,32.3771182,-82.5923554
-St. Simons Island,Coastal,"Brunswick, GA",Glynn County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.218286300000003,-81.36120770000001
-Statesboro,Coastal,"Statesboro, GA",Bulloch County,0,0,1,0,0,0,0,0,0,1,0,0,0,0,32.4490141,-81.78329120000001
-Statham,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Barrow County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.9654884,-83.5964913
-Stillmore,Central,0,Emanuel County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,32.442115,-82.2151233
-Stockbridge,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,1,0,0,0,0,0,0,0,0,0,0,0,3,33.5442781,-84.2338093
-Stone Mountain,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,2,1,1,1,1,0,0,0,0,0,3,0,0,5,33.806216600000006,-84.1457505
-Stonecrest,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.6831296,-84.1358505
-Sugar Hill,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,34.1064895,-84.0335197
-Suwanee,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,1,1,2,0,0,3,3,2,1,3,0,0,0,1,34.0514898,-84.0712997
-Swainsboro,Central,0,Emanuel County,0,0,0,0,0,0,1,1,1,0,1,0,0,0,32.597385700000004,-82.33373759999999
-Sylvania,Coastal,0,Screven County,0,0,1,0,0,0,0,0,0,0,0,1,0,0,32.750444099999996,-81.636776
-Sylvester,South,"Albany, GA",Worth County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.5307349,-83.8354542
-Tallapoosa,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Haralson County,1,1,0,0,0,0,0,0,0,0,0,0,0,0,33.7442912,-85.2879889
-Tennille,East,0,Washington County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,32.9359886,-82.8115273
-Thomaston,West,"Thomaston, GA",Upson County,2,1,0,0,0,0,2,0,0,0,0,0,0,0,32.8881879,-84.3265855
-Thomasville,South,"Thomasville, GA",Thomas County,1,0,0,0,0,0,1,0,0,1,0,1,0,1,30.8365815,-83.9787808
-Thompson,Central,"Dublin, GA",Laurens County,0,1,0,0,0,0,0,0,0,1,0,1,2,0,32.533763,-82.920462
-Tifton,South,"Tifton, GA",Tift County,1,2,1,1,0,0,0,0,0,0,0,2,0,0,31.4522765,-83.5096866
-Toccoa,Northeast,"Toccoa, GA",Stephens County,0,1,0,1,0,0,0,1,0,1,0,0,0,0,34.577436799999994,-83.332881
-Toomsboro,East,0,Wilkinson County,0,0,0,0,0,0,0,0,0,1,0,0,0,0,32.827003999999995,-83.08022259999998
-Trenton,Northwest,"Chattanooga, TN-GA",Dade County,0,1,0,0,0,0,0,0,1,0,0,0,0,0,34.8720222,-85.50913
-Trion,Northwest,"Summerville, GA",Chattooga County,0,1,0,0,0,0,0,0,0,0,0,0,0,1,34.5439735,-85.31051120000001
-Tucker,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,1,0,2,0,0,1,0,1,0,1,1,1,3,33.8532701,-84.2200729
-Unadilla,Central,0,Dooly County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,32.261737800000006,-83.7364358
-Union City,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,1,0,0,3,0,0,0,0,0,1,2,1,3,33.587055799999995,-84.54242990000002
-Valdosta,South,"Valdosta, GA",Lowndes County,2,0,2,0,0,0,0,0,1,1,0,2,0,2,30.8327022,-83.2784851
-Vidalia,Central,"Vidalia, GA",Toombs County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.217685499999995,-82.4134614
-Villa Rica,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Carroll County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.732052,-84.91910809999999
-Wadley,East,0,Jefferson County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.8668223,-82.4040162
-Warm Springs,West,"Atlanta-Sandy Springs-Alpharetta, GA",Meriwether County,0,0,0,0,0,0,1,0,0,0,0,1,0,0,32.8904081,-84.6810381
-Warner Robins,West,"Warner Robins, GA",Houston County,0,0,0,0,1,0,1,1,0,0,1,1,0,3,32.6200973,-83.60656800000001
-Warrington,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,33.870671200000004,-84.217371
-Watkinsville,Northeast,"Athens-Clarke County, GA",Oconee County,0,1,0,0,0,0,0,0,0,0,0,0,0,1,33.8628959,-83.40877090000001
-Waycross,Coastal,"Waycross, GA",Ware County,1,0,0,0,0,0,0,0,0,0,0,1,0,1,31.2135511,-82.3540178
-Waynesboro,East,"Augusta-Richmond County, GA-SC",Burke County,3,0,0,0,0,2,0,0,0,3,0,0,1,1,33.089873100000005,-82.01567359999999
-West Point,West,"LaGrange, GA",Troup County,3,0,0,0,0,0,0,0,2,0,0,0,1,0,32.877905600000005,-85.18327459999999
-Willacoochee,Coastal,0,Atkinson County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,31.340755100000003,-83.04598259999999
-Winder,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Barrow County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,33.9919085,-83.7184368
-Woodbine,Coastal,"St. Marys, GA",Camden County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,30.9638429,-81.7226063
-Woodstock,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cherokee County,0,1,0,0,0,0,0,1,0,0,0,0,0,2,34.1014112,-84.51921920000001
-Wrens,East,0,Jefferson County,0,0,1,0,0,0,1,0,0,0,0,0,0,0,33.2076456,-82.39179200000001
-Young Harris,Northeast,0,Towns County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.9331453,-83.8471223
+City,ZCTA,CDRegion,MSA,County,Companies2007,Companies2008,Companies2009,Companies2010,Companies2011,Companies2012,Companies2013,Companies2014,Companies2015,Companies2016,Companies2017,Companies2018,Companies2019,Companies2020,Latitude,Longitude
+Acworth,30101.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,1,0,1,0,0,0,0,0,0,0,0,0,0,3,34.0659329,-84.67687959999999
+Adairsville,30103.0,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Bartow County,0,0,0,0,0,0,0,0,0,0,0,0,1,1,34.3687021,-84.9341093
+Adel,31620.0,South,0,Cook County,0,0,0,1,0,0,0,1,0,0,0,0,0,0,31.1371358,-83.4234936
+Ailey,30410.0,Central,"Vidalia, GA",Montgomery County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.1874042,-82.56568859999999
+Albany,31701.0,South,"Albany, GA",Dougherty County,1,0,5,1,0,0,1,0,0,0,1,0,0,5,31.578206199999997,-84.15568090000001
+Alma,31510.0,Coastal,0,Bacon County,0,0,1,0,0,0,0,0,0,0,0,1,1,0,31.5393701,-82.4623557
+Alpharetta,30009.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,7,6,8,3,2,2,2,4,2,0,1,3,1,17,34.0709576,-84.2747329
+Alto,30510.0,Northeast,"Cornelia, GA",Habersham County,0,0,0,0,0,0,0,1,1,0,0,0,0,1,34.4673222,-83.5737843
+Ambrose,31512.0,Coastal,"Douglas, GA",Coffee County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,31.593803100000002,-83.0143147
+Americus,31709.0,West,"Americus, GA",Sumter County,0,0,0,0,0,0,0,0,0,0,0,0,0,3,32.0723862,-84.23268759999999
+Andersonville,31711.0,West,"Americus, GA",Sumter County,0,0,0,0,0,0,0,0,1,0,0,0,0,0,32.1959947,-84.13990849999999
+Arabi,31712.0,West,"Cordele, GA",Crisp County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,31.831566100000003,-83.7379487
+Armuchee,30165.0,Northwest,"Rome, GA",Floyd County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,34.3123141,-85.1721729
+Ashburn,31714.0,South,0,Turner County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,31.7059751,-83.6535591
+Athens,30601.0,Northeast,"Athens-Clarke County, GA",Clarke County,0,2,2,2,1,0,1,0,0,1,2,0,0,5,33.9597677,-83.376398
+Atlanta,30303.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,20,28,26,21,8,17,22,15,15,21,38,17,16,145,33.749098700000005,-84.39018490000001
+Auburn,30011.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Barrow County,0,1,0,0,1,0,0,0,0,1,0,0,0,0,34.013662200000006,-83.8273503
+Augusta,30901.0,East,"Augusta-Richmond County, GA-SC",Richmond County,5,2,4,2,2,1,3,3,2,6,2,3,1,17,33.470971399999996,-81.9748429
+Austell,30168.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,0,0,1,1,0,0,1,1,0,1,2,0,2,33.8126059,-84.6343783
+Avondale Estates,30002.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,0,1,0,0,0,0,0,0,0,0,0,0,2,33.771494,-84.2671444
+Bainbridge,39819.0,South,"Bainbridge, GA",Decatur County,1,1,1,0,0,0,0,0,1,0,0,0,0,0,30.903825199999996,-84.57547679999999
+Baldwin,30511.0,Northeast,"Cornelia, GA",Habersham County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.4917665,-83.53739470000001
+Ball Ground,30107.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cherokee County,0,0,0,0,0,0,0,2,0,0,0,0,0,0,34.3382257,-84.3765714
+Barnesville,30204.0,West,"Atlanta-Sandy Springs-Alpharetta, GA",Lamar County,0,0,1,0,0,0,0,0,0,0,0,0,1,0,33.054570899999995,-84.1557496
+Baxley,31513.0,Coastal,0,Appling County,0,0,1,0,1,0,0,0,0,0,0,0,0,1,31.778251399999995,-82.3484618
+Black Creek,30530.0,Northeast,0,Banks County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,34.201048,-83.402109
+Blakely,39823.0,South,0,Early County,0,0,0,1,1,0,0,0,0,0,0,0,0,0,31.3773475,-84.93433879999999
+Bloomingdale,31302.0,Coastal,"Savannah, GA",Chatham County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.132424900000004,-81.2990018
+Bogart,30622.0,Northeast,"Athens-Clarke County, GA",Oconee County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,33.949281,-83.53460799999999
+Bonaire,31005.0,West,"Warner Robins, GA",Houston County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.5438429,-83.59602640000001
+Braselton,30517.0,Northeast,"Jefferson, GA",Jackson County,0,0,0,0,1,0,1,1,0,0,0,2,0,2,34.1092735,-83.7626729
+Brookhaven,30319.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.85843679999999,-84.340203
+Brunswick,31520.0,Coastal,"Brunswick, GA",Glynn County,0,1,0,0,1,0,0,0,1,0,0,1,1,2,31.149952799999998,-81.4914894
+Buena Vista,31803.0,West,"Columbus, GA-AL",Marion County,0,0,0,0,0,0,0,1,2,0,0,0,0,1,32.3190398,-84.5171411
+Buford,30518.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,1,1,0,0,0,0,1,2,3,0,2,0,0,6,34.1206564,-84.0043513
+Calhoun,39866.0,South,0,Calhoun County,1,2,3,0,0,1,0,2,2,2,0,0,0,0,31.531178399999998,-84.614328
+Canton,30114.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cherokee County,1,0,1,0,1,0,0,0,0,0,1,1,0,3,34.23676210000001,-84.4907621
+Carnesville,30521.0,Northeast,0,Franklin County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.3698266,-83.235155
+Carrollton,30117.0,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Carroll County,1,5,1,0,0,1,0,1,0,3,0,1,0,3,33.580110299999994,-85.0766113
+Cartersville,30120.0,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Bartow County,1,1,1,1,0,1,1,4,1,1,1,0,0,3,34.1650972,-84.7999383
+Cedartown,30125.0,Northwest,"Cedartown, GA",Polk County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,34.0124425,-85.2559398
+Centerville,31028.0,West,"Warner Robins, GA",Houston County,0,0,0,0,0,0,0,0,0,0,0,1,0,2,32.630145,-83.6896285
+Chamblee,30341.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,0,0,0,0,0,1,0,0,0,0,0,0,0,33.892176,-84.29882959999999
+Chatsworth,30705.0,Northwest,"Dalton, GA",Murray County,0,0,0,0,1,0,0,0,0,0,0,0,1,1,34.76659420000001,-84.7698842
+Chickamauga,30707.0,Northwest,"Chattanooga, TN-GA",Walker County,0,1,0,0,0,0,1,0,0,0,0,0,0,0,34.871149700000004,-85.29024720000001
+Clarkesville,30523.0,Northeast,"Cornelia, GA",Habersham County,1,0,0,0,0,0,0,1,0,0,0,0,0,0,34.6125971,-83.5248933
+Clarkston,30021.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,1,0,0,0,1,0,0,0,0,0,0,2,33.8095487,-84.2396434
+Claxton,30417.0,Coastal,0,Evans County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.1615815,-81.9040047
+Cochran,31014.0,West,0,Bleckley County,0,0,0,1,0,1,0,0,0,0,0,0,0,1,32.3868278,-83.3546098
+Colbert,30628.0,Northeast,"Athens-Clarke County, GA",Madison County,1,1,0,0,0,0,0,0,0,0,0,0,0,0,34.0378903,-83.2126517
+College Park,30337.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,1,1,2,0,2,0,1,0,0,0,0,0,10,33.6534427,-84.4493725
+Columbus,31901.0,West,"Columbus, GA-AL",Muscogee County,2,5,3,1,0,2,0,1,2,2,2,4,4,6,32.4609764,-84.9877094
+Commerce,30529.0,Northeast,"Jefferson, GA",Jackson County,1,0,0,0,0,0,0,0,0,0,0,0,0,2,34.203996999999994,-83.4571058
+Concord,31719.0,West,"Americus, GA",Sumter County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.1401594,-84.3813028
+Conley,30288.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,1,1,0,1,0,0,0,0,0,0,0,0,2,0,33.6448311,-84.3257571
+Conyers,30012.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Rockdale County,1,1,2,1,0,2,0,0,0,1,1,0,0,2,33.66761029999999,-84.0176904
+Cordele,31015.0,West,"Cordele, GA",Crisp County,2,1,0,0,0,0,0,0,0,0,0,0,0,2,31.963507399999997,-83.7823938
+Covington,30014.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Newton County,1,0,2,0,2,0,0,0,0,0,0,1,0,3,33.5967815,-83.86018270000001
+Cumming,30040.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Forsyth County,0,1,0,0,0,1,0,0,0,0,0,0,0,7,34.2073196,-84.14019259999999
+Cuthbert,39840.0,South,0,Randolph County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.7712748,-84.7893658
+Dacula,30019.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,33.988716499999995,-83.8979573
+Dahlonega,30533.0,Northeast,0,Lumpkin County,0,2,0,0,0,0,0,1,0,0,0,1,0,1,34.5328484,-83.9845723
+Dallas,30132.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Paulding County,0,0,0,1,0,1,1,0,0,0,0,0,0,0,33.9237141,-84.8407732
+Dalton,30720.0,Northwest,"Dalton, GA",Whitfield County,2,2,1,0,3,0,0,0,1,1,0,0,2,4,34.769186700000006,-84.9702475
+Dawson,30534.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Dawson County,1,0,0,0,0,0,0,0,1,0,0,1,0,0,34.407708500000005,-84.1356771
+Dawsonville,30534.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Dawson County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.4212053,-84.1190804
+Dearing,30808.0,East,"Augusta-Richmond County, GA-SC",McDuffie County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,33.4131947,-82.3851255
+Decatur,30030.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,2,1,1,1,0,0,3,1,0,3,0,0,3,33.7737582,-84.29606899999999
+Doraville,30340.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,3,0,0,2,0,0,1,0,0,0,0,1,0,33.898157899999994,-84.2832564
+Douglas,30135.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Douglas County,0,0,2,0,0,0,0,0,0,0,0,0,0,0,33.6995565,-84.7622973
+Douglasville,30134.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Douglas County,0,0,1,0,0,1,1,0,0,0,0,1,0,5,33.7514966,-84.7477136
+Dry Branch,31066.0,West,"Macon-Bibb County, GA",Crawford County,0,1,1,0,0,0,0,0,0,0,0,0,0,0,32.772308,-84.044416
+Dublin,31021.0,Central,"Dublin, GA",Laurens County,2,0,3,0,2,0,0,0,0,0,0,1,3,0,32.5404447,-82.903754
+Duluth,30096.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,1,3,5,4,1,1,4,3,3,0,3,0,0,4,34.0028569,-84.14410459999999
+Dunwoody,30338.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,0,0,0,0,0,0,0,0,0,1,0,2,33.948364899999994,-84.334963
+East Point,30344.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,4,0,0,1,1,1,1,1,0,0,0,0,3,33.6795531,-84.43937240000001
+Eastman,31023.0,Central,0,Dodge County,0,0,1,0,0,0,0,0,0,0,0,0,0,1,32.1976729,-83.1776514
+Eatonton,31024.0,East,0,Putnam County,0,0,1,0,0,1,0,0,0,0,0,0,0,1,33.326799699999995,-83.38849609999998
+Elberton,30635.0,Northeast,0,Elbert County,1,2,2,0,0,1,0,1,0,0,0,0,0,0,34.111222600000005,-82.8670839
+Ellaville,31806.0,West,"Americus, GA",Schley County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.2382139,-84.30907979999999
+Ellenwood,30294.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,0,0,0,0,0,0,0,0,0,1,0,1,1,33.6101096,-84.28797800000001
+Ellijay,30540.0,Northwest,0,Gilmer County,0,1,0,0,0,0,0,0,0,1,0,0,0,1,34.6950278,-84.48273940000001
+Eton,30705.0,Northwest,"Dalton, GA",Murray County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,34.8247425,-84.7632713
+Evans,30417.0,Coastal,0,Evans County,0,0,1,0,0,0,0,0,1,0,0,0,0,2,32.1613648,-81.8980725
+Fairburn,30213.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,0,0,0,0,0,0,1,0,1,2,33.5670562,-84.5810418
+Fayetteville,30214.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fayette County,0,0,0,0,0,2,0,0,1,0,0,1,1,2,33.4487257,-84.4549262
+Fitzgerald,31750.0,South,"Fitzgerald, GA",Ben Hill County,2,1,0,1,1,0,0,0,0,1,0,0,0,0,31.7149082,-83.2526545
+Flowery Branch,30542.0,Northeast,"Gainesville, GA",Hall County,1,0,0,0,0,0,0,0,1,0,0,0,0,1,34.185101700000004,-83.9251809
+Folkston,31537.0,Coastal,0,Charlton County,0,0,1,0,0,0,0,0,0,0,0,0,0,1,30.830581800000004,-82.00978459999999
+Forest Park,30297.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,2,0,0,2,2,1,1,1,1,1,0,1,1,33.6220542,-84.36909179999999
+Forsyth,30040.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Forsyth County,0,1,0,0,1,1,0,0,0,0,1,0,0,0,34.235309,-84.13356440000001
+Fort Benning,31905.0,West,"Columbus, GA-AL",Chattahoochee County,0,1,0,2,1,0,1,2,4,0,2,0,3,1,32.3523691,-84.9688191
+Fort Gaines,39851.0,South,0,Clay County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.609056899999995,-85.0471505
+Fort Gordon,30905.0,East,"Augusta-Richmond County, GA-SC",Richmond County,1,0,1,0,1,3,0,0,0,0,1,0,1,0,33.420972,-82.1620645
+Fort McPherson,30310.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.706771,-84.43503738
+Fort Mill,31905.0,West,"Columbus, GA-AL",Chattahoochee County,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32.3523691,-84.9688191
+Fort Oglethorpe,30742.0,Northwest,"Chattanooga, TN-GA",Catoosa County,0,2,0,0,0,0,0,0,1,0,0,0,0,0,34.9513555,-85.2415113
+Fort Stewart,31314.0,Coastal,"Hinesville, GA",Liberty County,0,0,0,0,3,0,0,0,0,0,0,0,1,0,31.869434899999998,-81.6077657
+Fort Valley,31030.0,West,"Warner Robins, GA",Peach County,0,0,0,1,0,0,0,1,0,0,0,0,0,1,32.5537585,-83.8874084
+Fortson,30228.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,33.377891399999996,-84.28881190000001
+Franklin,30521.0,Northeast,0,Heard County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,34.36786420000001,-83.21565749999999
+Gainesville,30501.0,Northeast,"Gainesville, GA",Hall County,2,3,2,1,0,1,2,1,1,0,1,0,2,4,34.2978794,-83.8240663
+Garden City,31408.0,Coastal,"Savannah, GA",Chatham County,0,0,1,0,0,0,0,1,0,0,0,0,0,0,32.114371500000004,-81.15400129999999
+Glenwood,30428.0,Central,0,Wheeler County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,32.179900800000006,-82.6695802
+Glynco,31520.0,Coastal,"Brunswick, GA",Glynn County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.2224512,-81.5101023
+Gordon,30701.0,Northwest,"Calhoun, GA",Gordon County,0,0,0,0,0,0,0,0,0,1,0,0,0,0,34.5019651,-84.89863079999999
+Grayson,30017.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.8942729,-83.95574
+Greensboro,30642.0,Northeast,0,Greene County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.5756831,-83.18237890000002
+Greenville,30222.0,West,"Atlanta-Sandy Springs-Alpharetta, GA",Meriwether County,0,1,0,0,0,0,0,0,0,0,0,0,0,1,33.0287373,-84.7129848
+Griffin,30224.0,West,"Atlanta-Sandy Springs-Alpharetta, GA",Spalding County,1,2,1,0,1,0,3,0,0,0,0,1,0,0,33.246780699999995,-84.26409040000001
+Grovetown,30813.0,East,"Augusta-Richmond County, GA-SC",Columbia County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.4504157,-82.19817640000001
+Hamilton,31811.0,West,"Columbus, GA-AL",Harris County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.757910700000004,-84.8749311
+Hampton,30228.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.3870578,-84.2829784
+Hapeville,30354.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,1,0,1,0,1,0,0,1,1,0,0,0,0,1,33.660109000000006,-84.4102046
+Hartwell,30643.0,Northeast,0,Hart County,1,0,1,0,0,0,0,0,0,0,0,0,1,0,34.3528825,-82.932087
+Hawkinsville,31036.0,Central,"Warner Robins, GA",Pulaski County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,32.2839257,-83.4719948
+Helen,30545.0,Northeast,0,White County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.7009043,-83.7294546
+Hiawassee,30546.0,Northeast,0,Towns County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.947959000000004,-83.7569922
+Hiram,30141.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Paulding County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,33.875660100000005,-84.7621592
+Hogansville,30230.0,West,"LaGrange, GA",Troup County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,33.173176899999994,-84.914936
+Hunter Army Airfield,31409.0,Coastal,"Savannah, GA",Chatham County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,32.0093774,-81.15073344
+Jackson,30549.0,Northeast,"Jefferson, GA",Jackson County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.1282559,-83.5753386
+Jefferson,30434.0,East,0,Jefferson County,0,0,0,0,0,0,0,0,0,2,0,0,0,1,33.0380388,-82.436141
+Jeffersonville,31044.0,Central,"Macon-Bibb County, GA",Twiggs County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,32.6876606,-83.3470598
+Jesup,31545.0,Coastal,"Jesup, GA",Wayne County,1,1,0,0,0,0,0,0,0,0,0,0,0,0,31.6074365,-81.88539240000001
+Johns Creek,30097.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,34.0181557,-84.190196
+Jonesboro,30236.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,0,0,1,0,2,0,0,0,0,0,0,0,0,33.521501300000004,-84.3538128
+Kennesaw,30144.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,5,4,2,2,1,0,2,3,3,4,3,3,8,34.023433700000005,-84.6154897
+Kings Bay,,Coastal,"St. Marys, GA",Camden County,0,0,0,1,2,0,0,1,0,0,0,0,0,2,30.7919027,-81.4970392
+Kingsland,31548.0,Coastal,"St. Marys, GA",Camden County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,30.7999563,-81.68982609999999
+Lafayette,30728.0,Northwest,"Chattanooga, TN-GA",Walker County,0,1,0,1,0,0,0,0,0,0,0,0,0,0,34.7048022,-85.2818998
+LaGrange,30240.0,West,"LaGrange, GA-AL",Troup County,1,3,0,2,0,0,0,0,0,0,0,0,0,3,33.039291,-85.03132690000001
+Lake City,30260.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,0,0,0,0,0,0,0,0,0,1,0,0,1,33.6064989,-84.3352017
+Lavonia,30553.0,Northeast,0,Franklin County,1,1,0,2,0,0,0,0,0,0,0,0,0,0,34.435682799999995,-83.1072495
+Lawrenceville,30046.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,3,0,4,0,2,3,1,4,2,2,3,0,1,2,33.9562149,-83.9879625
+Lilburn,30047.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,33.8901036,-84.1429719
+Lithia Springs,30122.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Douglas County,1,1,3,0,1,1,0,0,2,0,1,0,1,4,33.7939953,-84.66048990000002
+Lithonia,30058.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,0,0,0,0,0,1,0,0,0,0,2,1,6,33.7123305,-84.1051939
+Locust Grove,30248.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,0,0,0,0,0,1,0,0,0,0,1,33.345949499999996,-84.109083
+Loganville,30052.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Walton County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,33.8389977,-83.90073819999999
+Louisville,30434.0,East,0,Jefferson County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.0015407,-82.4112377
+Lyerly,30730.0,Northwest,"Summerville, GA",Chattooga County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,34.4039775,-85.40329109999999
+Lyons,30436.0,Central,"Vidalia, GA",Toombs County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,32.2043546,-82.321791
+Mableton,30126.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,1,0,0,0,0,0,0,0,0,2,0,0,0,33.8188333,-84.5822632
+Macon,31201.0,Central,"Macon-Bibb County, GA",Bibb County,1,2,2,1,1,2,0,2,2,2,5,1,1,8,32.8406946,-83.6324022
+Madison,30629.0,Northeast,"Athens-Clarke County, GA",Madison County,3,0,0,0,0,0,0,0,0,0,0,0,0,0,34.1307533,-83.1817407
+Manchester,31816.0,West,"Atlanta-Sandy Springs-Alpharetta, GA",Meriwether County,0,0,0,0,0,0,0,0,0,0,1,0,0,0,32.8598538,-84.61992509999999
+Marietta,30060.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,2,5,2,2,3,2,3,4,0,4,1,5,0,8,33.9528472,-84.54961479999999
+Martinez,30907.0,East,"Augusta-Richmond County, GA-SC",Columbia County,0,0,0,0,0,0,0,0,0,1,0,0,1,1,33.5185135,-82.09020822
+McDonough,30253.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,0,0,1,3,0,0,0,0,0,0,0,0,1,33.4473361,-84.1468616
+McIntyre,31054.0,East,0,Wilkinson County,0,0,0,0,0,0,0,0,1,0,0,0,0,0,32.846258299999995,-83.19071009999999
+McRae,31055.0,Central,0,Telfair County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.0679541,-82.9006993
+Menlo,30731.0,Northwest,"Summerville, GA",Chattooga County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,34.484808,-85.47634920000002
+Metter,30439.0,Coastal,0,Candler County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,32.397118,-82.0601196
+Midland,31820.0,West,"Columbus, GA-AL",Muscogee County,0,0,1,0,0,0,1,0,1,0,0,1,0,0,32.5748608,-84.827152
+Midville,30441.0,East,"Augusta-Richmond County, GA-SC",Burke County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.8190456,-82.23484549999999
+Midway,31320.0,Coastal,"Hinesville, GA",Liberty County,0,0,0,0,0,0,0,0,0,0,0,1,0,2,31.805769,-81.4306642
+Milledgeville,31061.0,East,"Milledgeville, GA",Baldwin County,1,1,3,0,0,0,1,1,1,0,0,0,1,0,33.0801429,-83.2320991
+Millen,30442.0,East,0,Jenkins County,3,0,1,0,0,0,0,0,0,0,0,0,0,0,32.804051199999996,-81.9492812
+Milton,30004.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,34.1321631,-84.300666
+Monroe,31029.0,Central,"Macon-Bibb County, GA",Monroe County,0,0,1,0,0,0,0,0,0,0,0,0,0,1,33.0142344,-83.9044159
+Montezuma,31063.0,West,0,Macon County,0,0,0,0,0,1,2,0,0,0,0,0,0,0,32.3051576,-84.0274073
+Monticello,31064.0,East,"Atlanta-Sandy Springs-Alpharetta, GA",Jasper County,0,0,0,0,0,0,0,0,0,0,0,1,0,0,33.3044654,-83.684096
+Morrow,30260.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,0,1,0,0,1,0,0,1,0,1,0,0,1,3,33.5831662,-84.33936829999999
+Moultrie,31768.0,South,"Moultrie, GA",Colquitt County,1,0,0,0,0,0,1,1,0,0,0,0,0,0,31.179997999999998,-83.7887928
+Murrayville,30564.0,Northeast,"Gainesville, GA",Hall County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.4187083,-83.9057392
+Nashville,31639.0,South,0,Berrien County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,31.2074197,-83.25015479999999
+Newnan,30263.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Coweta County,0,0,1,0,0,1,0,0,4,0,0,1,1,8,33.3806716,-84.79965729999999
+Norcross,30071.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,3,9,4,2,5,0,2,1,1,2,2,0,0,5,33.9412127,-84.2135309
+Oakwood,30566.0,Northeast,"Gainesville, GA",Hall County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,34.227602000000005,-83.8843455
+Ocilla,31774.0,South,0,Irwin County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,31.5943567,-83.2504328
+Palmetto,30268.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.5178907,-84.66965490000001
+Patterson,31557.0,Coastal,"Waycross, GA",Pierce County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,31.387438300000003,-82.1401193
+Peachtree City,30269.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fayette County,0,0,1,1,0,1,1,1,0,0,0,0,0,5,33.3967829,-84.59576290000001
+Peachtree Corners,30092.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,33.9701009,-84.2215869
+Pelham,31779.0,South,0,Mitchell County,0,0,0,0,0,0,0,0,0,0,0,1,0,0,31.127482,-84.152113
+Pendergrass,30567.0,Northeast,"Jefferson, GA",Jackson County,1,0,1,0,1,1,0,0,1,1,0,0,0,0,34.1623292,-83.67794740000001
+Perry,31069.0,West,"Warner Robins, GA",Houston County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.4586695,-83.7319658
+Pine Mountain Vally,31822.0,West,"Columbus, GA-AL",Harris County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,32.850077,-84.846327
+Pooler,31322.0,Coastal,"Savannah, GA",Chatham County,0,0,0,0,0,0,0,0,0,0,0,0,0,2,32.1158983,-81.24951309999999
+Portal,30450.0,Coastal,"Statesboro, GA",Bulloch County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,32.538222,-81.9323384
+Preston,31824.0,West,0,Webster County,0,0,1,0,0,0,0,0,0,0,0,0,0,0,32.0659918,-84.537417
+Quitman,39854.0,South,"Eufaula, AL-GA",Quitman County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,31.8769847,-85.0154412
+Rabun Gap,30568.0,Northeast,0,Rabun County,0,0,0,0,0,0,0,0,0,0,0,1,0,0,34.9472664,-83.3978194
+Richmond,30815.0,East,"Augusta-Richmond County, GA-SC",Richmond County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,33.385076,-82.09207959
+Richmond Hill,31324.0,Coastal,"Savannah, GA",Bryan County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.9382381,-81.3035515
+Ringgold,30736.0,Northwest,"Chattanooga, TN-GA",Catoosa County,0,1,1,1,0,0,0,0,0,0,0,0,0,0,34.91591,-85.1091173
+Riverdale,30274.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Clayton County,1,0,0,0,1,0,0,0,0,0,0,0,0,0,33.5726113,-84.4132594
+Roberta,31078.0,West,"Macon-Bibb County, GA",Crawford County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.7219973,-84.0130926
+Robins Air Force Base,31098.0,West,"Warner Robins, GA",Houston County,1,0,0,0,0,0,0,0,0,0,0,0,0,0,32.617825800000006,-83.57707459
+Rockmart,30153.0,Northwest,"Cedartown, GA",Polk County,0,0,0,0,0,0,0,1,0,2,0,0,0,0,34.0026005,-85.0416133
+Rome,30161.0,Northwest,"Rome, GA",Floyd County,3,3,3,2,4,0,0,3,3,4,1,2,0,3,34.257038,-85.16467259999999
+Roopville,30170.0,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Carroll County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,33.4565021,-85.13077790000001
+Rossville,30741.0,Northwest,"Chattanooga, TN-GA",Walker County,0,2,0,0,0,0,0,0,0,0,0,0,0,0,34.983376,-85.28603000000001
+Roswell,30075.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,1,1,0,1,0,1,0,1,0,1,2,1,1,7,34.02332,-84.360022
+Royston,30662.0,Northeast,0,Franklin County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,34.2870503,-83.1101483
+Sandersville,31082.0,East,0,Washington County,0,1,4,0,0,0,0,0,0,0,0,0,1,0,32.9832812,-82.8116031
+Sandy Springs,30328.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,1,0,1,0,0,0,0,1,0,0,0,0,0,2,33.92426879999999,-84.37853790000001
+Savannah,31401.0,Coastal,"Savannah, GA",Chatham County,0,3,4,3,4,2,2,1,3,1,0,3,2,26,32.0809263,-81.09117679999999
+Shannon,30161.0,Northwest,"Rome, GA",Floyd County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,34.3422495,-85.08579182
+Silver Creek,30161.0,Northwest,"Rome, GA",Floyd County,0,0,0,0,0,0,0,0,0,0,0,0,1,0,34.242305,-85.174276
+Smyrna,30080.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cobb County,0,0,1,1,0,1,1,2,3,0,1,1,1,5,33.883887,-84.51474540000001
+Snellville,30078.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,0,0,0,0,0,0,0,3,33.857328,-84.0199108
+Social Circle,30025.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Walton County,1,0,0,0,0,0,0,0,0,0,1,0,0,0,33.6561723,-83.7184579
+Soperton,30457.0,Central,0,Treutlen County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,32.3771182,-82.5923554
+St. Simons Island,31522.0,Coastal,"Brunswick, GA",Glynn County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.218286300000003,-81.36120770000001
+Statesboro,30458.0,Coastal,"Statesboro, GA",Bulloch County,0,0,1,0,0,0,0,0,0,1,0,0,0,0,32.4490141,-81.78329120000001
+Statham,30666.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Barrow County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.9654884,-83.5964913
+Stillmore,30471.0,Central,0,Emanuel County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,32.442115,-82.2151233
+Stockbridge,30281.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Henry County,0,1,0,0,0,0,0,0,0,0,0,0,0,3,33.5442781,-84.2338093
+Stone Mountain,30083.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,2,1,1,1,1,0,0,0,0,0,3,0,0,5,33.806216600000006,-84.1457505
+Stonecrest,30038.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.6831296,-84.1358505
+Sugar Hill,30518.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,34.1064895,-84.0335197
+Suwanee,30024.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",Gwinnett County,1,1,2,0,0,3,3,2,1,3,0,0,0,1,34.0514898,-84.0712997
+Swainsboro,30401.0,Central,0,Emanuel County,0,0,0,0,0,0,1,1,1,0,1,0,0,0,32.597385700000004,-82.33373759999999
+Sylvania,30467.0,Coastal,0,Screven County,0,0,1,0,0,0,0,0,0,0,0,1,0,0,32.750444099999996,-81.636776
+Sylvester,31791.0,South,"Albany, GA",Worth County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,31.5307349,-83.8354542
+Tallapoosa,30176.0,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Haralson County,1,1,0,0,0,0,0,0,0,0,0,0,0,0,33.7442912,-85.2879889
+Tennille,31089.0,East,0,Washington County,0,0,0,0,0,0,1,0,0,0,0,0,0,0,32.9359886,-82.8115273
+Thomaston,30286.0,West,"Thomaston, GA",Upson County,2,1,0,0,0,0,2,0,0,0,0,0,0,0,32.8881879,-84.3265855
+Thomasville,31792.0,South,"Thomasville, GA",Thomas County,1,0,0,0,0,0,1,0,0,1,0,1,0,1,30.8365815,-83.9787808
+Thompson,31021.0,Central,"Dublin, GA",Laurens County,0,1,0,0,0,0,0,0,0,1,0,1,2,0,32.533763,-82.920462
+Tifton,31794.0,South,"Tifton, GA",Tift County,1,2,1,1,0,0,0,0,0,0,0,2,0,0,31.4522765,-83.5096866
+Toccoa,30577.0,Northeast,"Toccoa, GA",Stephens County,0,1,0,1,0,0,0,1,0,1,0,0,0,0,34.577436799999994,-83.332881
+Toomsboro,31090.0,East,0,Wilkinson County,0,0,0,0,0,0,0,0,0,1,0,0,0,0,32.827003999999995,-83.08022259999998
+Trenton,30752.0,Northwest,"Chattanooga, TN-GA",Dade County,0,1,0,0,0,0,0,0,1,0,0,0,0,0,34.8720222,-85.50913
+Trion,30753.0,Northwest,"Summerville, GA",Chattooga County,0,1,0,0,0,0,0,0,0,0,0,0,0,1,34.5439735,-85.31051120000001
+Tucker,30084.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,1,1,0,2,0,0,1,0,1,0,1,1,1,3,33.8532701,-84.2200729
+Unadilla,31091.0,Central,0,Dooly County,0,0,0,1,0,0,0,0,0,0,0,0,0,0,32.261737800000006,-83.7364358
+Union City,30291.0,Metro South,"Atlanta-Sandy Springs-Alpharetta, GA",Fulton County,0,1,0,0,3,0,0,0,0,0,1,2,1,3,33.587055799999995,-84.54242990000002
+Valdosta,31601.0,South,"Valdosta, GA",Lowndes County,2,0,2,0,0,0,0,0,1,1,0,2,0,2,30.8327022,-83.2784851
+Vidalia,30474.0,Central,"Vidalia, GA",Toombs County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,32.217685499999995,-82.4134614
+Villa Rica,30180.0,Northwest,"Atlanta-Sandy Springs-Alpharetta, GA",Carroll County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,33.732052,-84.91910809999999
+Wadley,30477.0,East,0,Jefferson County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,32.8668223,-82.4040162
+Warm Springs,31830.0,West,"Atlanta-Sandy Springs-Alpharetta, GA",Meriwether County,0,0,0,0,0,0,1,0,0,0,0,1,0,0,32.8904081,-84.6810381
+Warner Robins,31093.0,West,"Warner Robins, GA",Houston County,0,0,0,0,1,0,1,1,0,0,1,1,0,3,32.6200973,-83.60656800000001
+Warrington,30084.0,Metro North,"Atlanta-Sandy Springs-Alpharetta, GA",DeKalb County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,33.870671200000004,-84.217371
+Watkinsville,30677.0,Northeast,"Athens-Clarke County, GA",Oconee County,0,1,0,0,0,0,0,0,0,0,0,0,0,1,33.8628959,-83.40877090000001
+Waycross,31501.0,Coastal,"Waycross, GA",Ware County,1,0,0,0,0,0,0,0,0,0,0,1,0,1,31.2135511,-82.3540178
+Waynesboro,30830.0,East,"Augusta-Richmond County, GA-SC",Burke County,3,0,0,0,0,2,0,0,0,3,0,0,1,1,33.089873100000005,-82.01567359999999
+West Point,31833.0,West,"LaGrange, GA",Troup County,3,0,0,0,0,0,0,0,2,0,0,0,1,0,32.877905600000005,-85.18327459999999
+Willacoochee,31650.0,Coastal,0,Atkinson County,0,1,0,0,0,0,0,0,0,0,0,0,0,0,31.340755100000003,-83.04598259999999
+Winder,30680.0,Northeast,"Atlanta-Sandy Springs-Alpharetta, GA",Barrow County,0,0,0,0,0,0,0,1,0,0,0,0,0,0,33.9919085,-83.7184368
+Woodbine,31569.0,Coastal,"St. Marys, GA",Camden County,0,0,0,0,1,0,0,0,0,0,0,0,0,0,30.9638429,-81.7226063
+Woodstock,30188.0,Metro West,"Atlanta-Sandy Springs-Alpharetta, GA",Cherokee County,0,1,0,0,0,0,0,1,0,0,0,0,0,2,34.1014112,-84.51921920000001
+Wrens,30833.0,East,0,Jefferson County,0,0,1,0,0,0,1,0,0,0,0,0,0,0,33.2076456,-82.39179200000001
+Young Harris,30582.0,Northeast,0,Towns County,0,0,0,0,0,0,0,0,0,0,0,0,0,1,34.9331453,-83.8471223

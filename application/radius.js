@@ -37,15 +37,14 @@ const getBuffer = (coords) => {
         // add buffer layer
       	map.addLayer({
         	"id": "buffer",
-        	"type": "line",
+        	"type": "fill",
         	"source": 'buff',
         	"layout": {
           		'visibility' : 'visible'
         	},
         	paint: {
-              'line-color':"#000",
-              'line-width':2,
-              'line-dasharray':[5,1.5]
+              'fill-color':"#4d4d4d",
+              'fill-opacity':0.3
             }
       	}, 'fillLayer');
     }

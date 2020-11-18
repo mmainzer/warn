@@ -16,14 +16,42 @@ const getStops = (obj, q, metric) => {
 
 }
 
+const getYears = () => {
+	
+	startYear = parseInt(startYear);
+	endYear = parseInt(endYear);
+	years = [];
+	while(startYear <= endYear) {
+		years.push(startYear++);
+	}
+
+	years = years.map(String);
+
+
+}
+
+const buildMetrics = () => {
+
+	years.forEach(year => {
+		fillMetric.push(["get","Employees"+year]);
+		pointMetric.push(["get","Companies"+year])
+	});
+
+	fillMetric.push(0);
+	pointMetric.push(0);
+
+}
+
+
 const setFillStops = () => {
+
 	fillStop1 = getStops(zipRoll, .2, "Employees");
 	fillStop2 = getStops(zipRoll, .4, "Employees");
 	fillStop3 = getStops(zipRoll, .6, "Employees"); 
 	fillStop4 = getStops(zipRoll, .8, "Employees"); 
 	fillStop5 = getStops(zipRoll, 1, "Employees");
 
-	fillColor = ["interpolate",["linear"],["get",fillMetric],
+	fillColor = ["interpolate",["linear"],fillMetric,
 					0, "hsla(0, 0%, 0%, 0)",
 					1, "hsla(180, 100%, 92%, 0.6)",
 					fillStop1, "hsla(180, 100%, 92%, 0.6)",
@@ -49,39 +77,6 @@ const setFillStops = () => {
 		fillStop5 = fillStop5 + .2;
 		fillStop4 = fillStop4 + .1;
 	}
-}
-
-const setPointStops = () => {
-
-	pointStop1 = getStops(cityRoll, .2, "Companies"); //12
-	pointStop2 = getStops(cityRoll, .4, "Companies"); //57
-	pointStop3 = getStops(cityRoll, .6, "Companies"); //120
-	pointStop4 = getStops(cityRoll, .8, "Companies"); //237
-	pointStop5 = getStops(cityRoll, 1, "Companies"); //3658
-
-	if (pointStop1 === pointStop2) {
-		pointStop1 = pointStop1 - .2;
-	}
-
-	if (pointStop2 === pointStop3) {
-		pointStop2 = pointStop2 - .1;
-	}
-
-	if (pointStop4 === pointStop5 || pointStop4 === pointStop3) {
-		pointStop5 = pointStop5 + .2;
-		pointStop4 = pointStop4 + .1;
-	}
-
-	pointRadius = ["interpolate",["linear"],["get",pointMetric],
-						0, 3,
-						0.1, 5,
-						pointStop1, 5,
-						pointStop2, 10,
-						pointStop3, 15,
-						pointStop4, 25,
-						pointStop5, 35
-					];
-
 }
 
 const buildTable = (data) => {
@@ -122,8 +117,6 @@ const buildTable = (data) => {
 		arrAll.push(tempArray);
 	});
 
-	console.log(employeeTotal);
-	console.log(companyTotal);
 	$("#announceTotal").text(companyTotal);
 	$("#employeeTotal").text(employeeTotal);
 
@@ -157,7 +150,7 @@ const buildTable = (data) => {
     });
 
     // move the pagination element to a fixed position at the bottom of a container
-    $("#pointsTable_paginate").appendTo(".graphic-container-table")
+    $("#pointsTable_paginate").appendTo(".table-container")
 
 }
 
@@ -176,7 +169,7 @@ const setStyleCustomGeo = (polygon) => {
 	// now filter and style the layers
 	map.setFilter('boundaryLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
 	map.setFilter('fillLayer', ["all",["match",["get","ZCTA"],zips, true, false]]);
-	map.setFilter('pointLayer', ["all", ['within', polygon]]);
+	map.setFilter('pointLayer', ["all",["match",["get","ZCTA"],zips.map(Number), true, false]]);
 
 	map.setPaintProperty('fillLayer', 'fill-color', fillColor);
 	map.setPaintProperty('pointLayer', 'circle-radius', pointRadius );
@@ -184,6 +177,9 @@ const setStyleCustomGeo = (polygon) => {
 }
 
 const customGeoReduce = (data) => {
+
+	cityRoll = [];
+	zipRoll = [];
 
 	data.reduce(function(res, value) {
 		if (!res[value.ZCTA]) {
@@ -207,17 +203,20 @@ const customGeoReduce = (data) => {
 
 const getData = () => {
 
+	checkLayers();
+
 	zipRoll = [];
 	cityRoll = [];
 
 	$.getJSON(warnUrl, function(data) {
 
-		data = data.filter(d => { return d.Year === year[0] && d[selectedLevel[0]] === selectedGeo[0] });
+		data = data.filter(d => { return years.includes(d.Year) && d[selectedLevel[0]] === selectedGeo[0] });
 		if (data.length == 0) {
 			onFail();
 		} else {
 			$("#alertContainer").hide();
 			buildTable(data);
+			buildBarChart(data);
 
 			data.reduce(function(res, value) {
 				if (!res[value.ZCTA]) {
@@ -237,17 +236,17 @@ const getData = () => {
 				return res
 			});
 
+			buildMetrics();
 			setFillStops();
-			setPointStops();
 
 			// now filter and style the layers
 			setStyle();
 
 			//get the new bounding box
 			bbox = selectedGeo.map(id => dataObj[selectedLevel].find(({ area }) => area === id).bbox);
-
+			bbox = bbox[0];
 			// now fly to the bounding box of the newly selected area
-			flyToBounds(bbox[0], 10, 10);
+			flyToBounds(bbox, 10, 10);
 
 		}
 
@@ -263,7 +262,7 @@ const getCustomData = (polygon, zips) => {
 
 	$.getJSON(warnUrl, function(data) {
 
-		data = data.filter(d => { return d.Year === year[0] && zips.includes(d.ZCTA) });
+		data = data.filter(d => { return years.includes(d.Year) && zips.includes(d.ZCTA) });
 
 		if (data.length == 0) {
 			onFail();
@@ -273,8 +272,8 @@ const getCustomData = (polygon, zips) => {
 
 			customGeoReduce(data);
 
+			buildMetrics();
 			setFillStops();
-			setPointStops();
 
 			setStyleCustomGeo(polygon);
 

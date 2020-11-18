@@ -275,7 +275,7 @@ table {
   font-family: jaf-bernina-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .graphic-container-table {
@@ -293,7 +293,7 @@ table {
   font-family: jaf-bernina-sans, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #pointsTable_paginate.pagination {

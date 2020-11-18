@@ -27,21 +27,16 @@ $('.geoDropdown').change(function() {
 
 });
 
-$('#yearSelect').change(function() {
+$('.yearSelect').change(function() {
 
-	year = $("#select2-yearSelect-container").get().map(el => el.textContent);
-	fillMetric = "Employees"+year[0];
-	pointMetric = "Companies"+year[0];
-
+	startYear = $("#select2-startYear-container").get().map(el => el.textContent)[0];
+	endYear = $("#select2-endYear-container").get().map(el => el.textContent)[0];
+	getYears();
 	if (selectedLevel[0] === "radius" || selectedLevel[0] === "drivetime") {
-		console.log(selectedLevel);
-		console.log(fillMetric);
-		console.log(pointMetric);
-		console.log(zips);
 
 			$.getJSON(warnUrl, function(data) {
 
-				data = data.filter(d => { return d.Year === year[0] && zips.includes(d.ZCTA) });
+				data = data.filter(d => { return years.includes(d.Year) && zips.includes(d.ZCTA) });
 
 				if (data.length == 0) {
 					onFail();
@@ -51,6 +46,7 @@ $('#yearSelect').change(function() {
 
 					customGeoReduce(data);
 
+					buildMetrics();
 					setFillStops();
 					setPointStops();
 
@@ -100,11 +96,25 @@ const checkLayers = () => {
 // function to change the mileage for the radius selection
 $('#radius').change(function() {
 
+	bufferGeocoder.clear();
+
 	distance = $("#select2-radius-container").get().map(el => el.textContent);
 	distance = distance[0].split(' ');
 	distance = distance[1];
 	distance = parseInt(distance);
 	
 
+});
+
+// function to change the minutes for the drivetime selection
+$('#driveTime').change(function() {
+
+	isoGeocoder.clear();
+
+	minutes = $("#select2-driveTime-container").get().map(el => el.textContent);
+	minutes = minutes[0].split(' ');
+	minutes = minutes[0];
+	minutes = parseInt(minutes);
+	
 
 });
