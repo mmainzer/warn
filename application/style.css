@@ -304,6 +304,10 @@ table {
   left: 20px;
 }
 
+button {
+  padding-right: 20px;
+}
+
 .page-link {
   color: #4d4d4d;
 }

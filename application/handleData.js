@@ -141,11 +141,11 @@ const buildTable = (data) => {
         "autoWidth" : true,
         "dom" : "Bfrtip",
         "pagingType" : "full",
-        "buttons" : [{
-          extend : 'pdf',
-          text : 'Export PDF',
-          title : 'Closures/Layoffs in Selected Area'
-        }],
+        "buttons" : [
+	        {extend: 'pdf', text:'Export PDF', title:'Closures/Layoffs in '+selectedGeo[0]},
+	        {extend: 'excel',  title:'Closures/Layoffs in '+selectedGeo[0]}
+        ],
+        
         "colReorder" : false
     });
 
