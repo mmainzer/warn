@@ -38,7 +38,10 @@ map.on('mousemove', 'fillLayer', function(e) {
 
 	let lngLat = e.lngLat;
 	let zip = [ e.features[0].properties.ZCTA ];
-	let employees = zipRoll.filter(x => x.ZCTA === zip[0]).map(x => x.Employees) + 0;
+	let employees = zipRoll.filter(x => x.ZCTA === zip[0]).map(x => x.Employees);
+	if (employees.length === 0) {
+		employees.push(0)
+	}
 	zip = '<h1 class="popup-header">'+zip[0]+'</h1>';
 	employees = '<strong> '+employees+' </strong>';
 	let html = zip+'<p class="popup-description">There were at least '+employees+' employees laid off by reporting businesses in the selected time period.</p>'
@@ -72,7 +75,10 @@ map.on("mousemove","pointLayer", function(e) {
 	fillPopup.remove();
 	let lngLat = e.lngLat;
 	let city = e.features[0].properties.City;
-	let companies = cityRoll.filter(x => x.City === city).map(x => x.Companies) + 0;
+	let companies = cityRoll.filter(x => x.City === city).map(x => x.Companies);
+	if (companies.length === 0) {
+		companies.push(0)
+	}
 	city = '<h1 class="popup-header">'+city+'</h1>';
 	companies = '<strong> '+companies+' </strong>';
 	let html = city+'<p class="popup-description">There were at least '+companies+' companies that experienced layoffs in the selected time period.</p>'

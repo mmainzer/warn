@@ -134,7 +134,7 @@ const buildTable = (data) => {
 	$(".graphic-container-table").show();
 
 	$('#pointsTable').DataTable({
-        "pageLength" : 5,
+        "pageLength" : 10,
         "paging" : true,
         "searching" : false,
         "bInfo" : false,
@@ -211,12 +211,15 @@ const getData = () => {
 	$.getJSON(warnUrl, function(data) {
 
 		data = data.filter(d => { return years.includes(d.Year) && d[selectedLevel[0]] === selectedGeo[0] });
+
 		if (data.length == 0) {
 			onFail();
 		} else {
 			$("#alertContainer").hide();
+			
 			buildTable(data);
-			buildBarChart(data);
+
+			// updateBarChart(data);
 
 			data.reduce(function(res, value) {
 				if (!res[value.ZCTA]) {

@@ -12,7 +12,8 @@ function loadData(zipRoll, cityRoll) {
 
 		data = data.filter(d => { return years.includes(d.Year) && d[selectedLevel[0]] === selectedGeo[0] });
 		buildTable(data);
-		buildBarChart(data);
+		// buildBarChart(data);
+
 		data.reduce(function(res, value) {
 			if (!res[value.ZCTA]) {
 				res[value.ZCTA] = { ZCTA: value.ZCTA, Employees: value.Employees };
