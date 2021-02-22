@@ -32,6 +32,8 @@ const getYears = () => {
 
 const buildMetrics = () => {
 
+	fillMetric = [ "+", 0 ];
+
 	years.forEach(year => {
 		fillMetric.push(["get","Employees"+year]);
 		pointMetric.push(["get","Companies"+year])
@@ -63,6 +65,9 @@ const setFillStops = () => {
 
 	$("#minFill").text("<"+fillStop1.toFixed(0));
 	$("#maxFill").text(">"+fillStop5.toFixed(0));
+
+	console.log(fillColor);
+	console.log(fillMetric);
 
 
 	if (fillStop1 === fillStop2) {
